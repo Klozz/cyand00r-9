@@ -1,0 +1,16 @@
+Package: com.cyand00r.cyand00r
+Name: cyand00r
+Version: 8.1.1a
+Architecture: iphoneos-arm
+Description: Obten la mayoría de funciones de iOS 8 junto a un nuevo diseño en tu iPhone 4.
+Depiction: http://cyand00r.cf/repo/desc/cyand00r.html
+Maintainer: cyand00r Team <cyand00r.com>
+Author: cyand00r Team  <feedback@cyand00r.com>
+Sponsor: cyand00r Team <cyand00r.com>
+Section: cyand00r
+Pre-Depends: gsc.rear-camera-capability
+Depends: firmware (>= 7.0), com.rpetrich.rocketbootstrap, applist, libhide, pincrush, preferenceloader, com.saurik.substrate.safemode, net.mobileinnova.liblocation, com.chpwn.weeloader, mobilesubstrate (>= 0.9.5000), com.cyand00r.icons
+Conflicts: com.mootjeuh.interactivemsgnotifications, com.twodayslate.blursl, org.thebigboss.flashorama, org.thebigboss.betterpanobutton, org.thebigboss.panomod, org.thebigboss.llbpano, org.thebigboss.animatedweatherenabler, org.thebigboss.cameratweak2, net.joedj.nitrous, com.sticktron.notific8, net.biteyourapple.apphide, com.jerryen.apphide, org.hackyouriphone.appcontrol, com.repo.xarold.com.appcontrol, org.thebigboss.stillcapture, com.johnrickman.appcontrol, org.thebigboss.liveeffectsenabler, org.thebigboss.slalommod, org.thebigboss.videozoommod, org.thebigboss.burstmode, me.qusic.couria, com.fralima.predictivekeyboard, com.plipala.ccsettings, com.sirifl0w.purge, com.uknl.betrfoldr, come.iphonecake.appsync70plus, com.hackyouriphone.appsync7
+Icon: file:///Applications/Cydia.app/Sections/cd_8.png
+Tag: purpose::uikit
+

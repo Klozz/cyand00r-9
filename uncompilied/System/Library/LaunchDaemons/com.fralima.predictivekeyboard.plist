@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserName</key>
+	<string>root</string>
+	<key>GroupName</key>
+	<string>wheel</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Label</key>
+	<string>com.fralima.predictivekeyboard</string>
+	<key>Nice</key>
+	<integer>0</integer>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/PredictiveKeyboard</string>
+	</array>
+</dict>
+</plist>

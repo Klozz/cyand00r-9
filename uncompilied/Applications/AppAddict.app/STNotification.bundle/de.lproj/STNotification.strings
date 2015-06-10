@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  MHNotification
+
+  Created by Mario Hahn on 17.02.14.
+  Copyright (c) 2014 Mario Hahn. All rights reserved.
+*/
+
+"notification.work"               = "So funktioniert es:";
+"notification.notificationTap"    = "Tippe auf \"Benachrichtigungszentrum\"";
+"notification.open"               = "Öffne die Einstellungen";
+"notification.app"                = "Wähle \"%@\"";
+"notification.activate"           = "\"%@\" aktivieren";
+"notification.lockScreen"         = "Im Sperrbildschirm";
+"notification.allowNotifications" = "Mitteilungen erlauben";
+"notification.chooseBanner"       = "Wähle \"Banner\"";
+"notification.banner"             = "Banner";
+"notification.none"               = "Keine";
+"notification.alert"              = "Hinweise";

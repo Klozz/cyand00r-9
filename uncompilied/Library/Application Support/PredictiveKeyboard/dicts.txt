@@ -1,0 +1,315 @@
+English (UK)
+enggb.abn Dictionaries
+enggb.atd Dictionaries
+enggb_0.atc Context
+enggb_1.atc Context
+enggb_2.atc Context
+
+Français
+frefr.abn Dictionaries
+frefr.atd Dictionaries
+frefr_0.atc Context
+frefr_1.atc Context
+frefr_2.atc Context
+
+Français (CA)
+freca.abn Dictionaries
+freca.atd Dictionaries
+freca_0.atc Context
+freca_1.atc Context
+freca_2.atc Context
+
+Español (ES)
+spaes.abn Dictionaries
+spaes.atd Dictionaries
+spaes_0.atc Context
+spaes_1.atc Context
+spaes_2.atc Context
+
+Español (LA)
+spamx.abn Dictionaries
+spamx.atd Dictionaries
+spamx_0.atc Context
+spamx_1.atc Context
+spamx_2.atc Context
+
+Português (PT)
+porpt.abn Dictionaries
+porpt.atd Dictionaries
+porpt_0.atc Context
+porpt_1.atc Context
+porpt_2.atc Context
+
+Português (BR)
+porbr.abn Dictionaries
+porbr.atd Dictionaries
+porbr_0.atc Context
+porbr_1.atc Context
+porbr_2.atc Context
+
+Čeština
+czecz.abn Dictionaries
+czecz.atd Dictionaries
+czecz_0.atc Context
+czecz_1.atc Context
+czecz_2.atc Context
+
+Deutsch
+gerde.abn Dictionaries
+gerde.atd Dictionaries
+gerde_0.atc Context
+gerde_1.atc Context
+gerde_2.atc Context
+
+Dansk
+dandk.abn Dictionaries
+dandk.atd Dictionaries
+dandk_0.atc Context
+dandk_1.atc Context
+dandk_2.atc Context
+
+Eesti
+estee.abn Dictionaries
+estee.atd Dictionaries
+estee_0.atc Context
+estee_1.atc Context
+estee_2.atc Context
+
+Hrvatski
+hrvhr.abn Dictionaries
+hrvhr.atd Dictionaries
+hrvhr_0.atc Context
+hrvhr_1.atc Context
+hrvhr_2.atc Context
+
+Íslenska
+iceis.abn Dictionaries
+iceis.atd Dictionaries
+iceis_0.atc Context
+iceis_1.atc Context
+iceis_2.atc Context
+
+Italiano
+itait.abn Dictionaries
+itait.atd Dictionaries
+itait_0.atc Context
+itait_1.atc Context
+itait_2.atc Context
+
+Latviešu
+lavlv.abn Dictionaries
+lavlv.atd Dictionaries
+lavlv_0.atc Context
+lavlv_1.atc Context
+lavlv_2.atc Context
+
+Lietuvių
+litlt.abn Dictionaries
+litlt.atd Dictionaries
+litlt_0.atc Context
+litlt_1.atc Context
+litlt_2.atc Context
+
+Nederlands
+dutnl.abn Dictionaries
+dutnl.atd Dictionaries
+dutnl_0.atc Context
+dutnl_1.atc Context
+dutnl_2.atc Context
+
+Norsk
+norno.abn Dictionaries
+norno.atd Dictionaries
+norno_0.atc Context
+norno_1.atc Context
+norno_2.atc Context
+
+Polski
+polpl.abn Dictionaries
+polpl.atd Dictionaries
+polpl_0.atc Context
+polpl_1.atc Context
+polpl_2.atc Context
+
+Română
+rumro.abn Dictionaries
+rumro.atd Dictionaries
+rumro_0.atc Context
+rumro_1.atc Context
+rumro_2.atc Context
+
+Slovenčina
+slosk.abn Dictionaries
+slosk.atd Dictionaries
+slosk_0.atc Context
+slosk_1.atc Context
+slosk_2.atc Context
+
+Slovenščina
+slvsi.abn Dictionaries
+slvsi.atd Dictionaries
+slvsi_0.atc Context
+slvsi_1.atc Context
+slvsi_2.atc Context
+
+Srpski
+srprs.abn Dictionaries
+srprs.atd Dictionaries
+srprs_0.atc Context
+srprs_1.atc Context
+srprs_2.atc Context
+
+Svenska
+swese.abn Dictionaries
+swese.atd Dictionaries
+swese_0.atc Context
+swese_1.atc Context
+swese_2.atc Context
+
+Suomi
+finfi.abn Dictionaries
+finfi.atd Dictionaries
+finfi_0.atc Context
+finfi_1.atc Context
+finfi_2.atc Context
+
+Türkçe
+turtr.abn Dictionaries
+turtr.atd Dictionaries
+turtr_0.atc Context
+turtr_1.atc Context
+turtr_2.atc Context
+
+Tiếng Việt
+vievn.abn Dictionaries
+vievn.atd Dictionaries
+vievn_0.atc Context
+vievn_1.atc Context
+vievn_2.atc Context
+
+Azərbaycanca
+azeaz.abn Dictionaries
+azeaz.atd Dictionaries
+azeaz_0.atc Context
+azeaz_1.atc Context
+azeaz_2.atc Context
+
+Ελληνικά
+gregr.abn Dictionaries
+gregr.atd Dictionaries
+gregr_0.atc Context
+gregr_1.atc Context
+gregr_2.atc Context
+
+Русский
+rusru.abn Dictionaries
+rusru.atd Dictionaries
+rusru_0.atc Context
+rusru_1.atc Context
+rusru_2.atc Context
+
+Беларуская
+belby.abn Dictionaries
+belby.atd Dictionaries
+belby_0.atc Context
+belby_1.atc Context
+belby_2.atc Context
+
+Български
+bulbg.abn Dictionaries
+bulbg.atd Dictionaries
+bulbg_0.atc Context
+bulbg_1.atc Context
+bulbg_2.atc Context
+
+Українська
+ukrua.abn Dictionaries
+ukrua.atd Dictionaries
+ukrua_0.atc Context
+ukrua_1.atc Context
+ukrua_2.atc Context
+
+العربية
+araeg.abn Dictionaries
+araeg.atd Dictionaries
+araeg_0.atc Context
+araeg_1.atc Context
+araeg_2.atc Context
+
+עִבְרִית
+hebil.abn Dictionaries
+hebil.atd Dictionaries
+hebil_0.atc Context
+hebil_1.atc Context
+hebil_2.atc Context
+
+हिन्दी
+hinin.abn Dictionaries
+hinin.atd Dictionaries
+hinin_0.atc Context
+hinin_1.atc Context
+hinin_2.atc Context
+
+മലയാളം
+malin.abn Dictionaries
+malin.atd Dictionaries
+malin_0.atc Context
+malin_1.atc Context
+malin_2.atc Context
+
+فارسی‎
+perir.abn Dictionaries
+perir.atd Dictionaries
+perir_0.atc Context
+perir_1.atc Context
+perir_2.atc Context
+
+Euskara
+baqes.abn Dictionaries
+baqes.atd Dictionaries
+baqes_0.atc Context
+baqes_1.atc Context
+baqes_2.atc Context
+
+Català
+cates.abn Dictionaries
+cates.atd Dictionaries
+cates_0.atc Context
+cates_1.atc Context
+cates_2.atc Context
+
+Filipino
+tglph.abn Dictionaries
+tglph.atd Dictionaries
+tglph_0.atc Context
+tglph_1.atc Context
+tglph_2.atc Context
+
+Galego
+glges.abn Dictionaries
+glges.atd Dictionaries
+glges_0.atc Context
+glges_1.atc Context
+glges_2.atc Context
+
+Magyar
+hunhu.abn Dictionaries
+hunhu.atd Dictionaries
+hunhu_0.atc Context
+hunhu_1.atc Context
+hunhu_2.atc Context
+
+Bahasa Indonesia
+indid.abn Dictionaries
+indid.atd Dictionaries
+indid_0.atc Context
+indid_1.atc Context
+indid_2.atc Context
+
+Bahasa Melayu
+maymy.abn Dictionaries
+maymy.atd Dictionaries
+maymy_0.atc Context
+maymy_1.atc Context
+maymy_2.atc Context
+

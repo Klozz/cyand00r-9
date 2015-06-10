@@ -1,0 +1,8 @@
+su
+alpine
+sysctl -w hw.cpufrequency_max=1000000000
+sysctl -w hw.cpufrequency=1000000000
+sysctl -w hw.cpufrequency_min=85000000
+
+/dev/disk0s1s1 / hfs ro 0 1
+/dev/disk0s1s2 /private/var hfs rw 0 2

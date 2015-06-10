@@ -1,0 +1,12 @@
+Package: com.cyand00r.installer
+Name: cyand00r Installer
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Instalador para cyand00r, Una vez instalado cyand00r este paquete se eliminara automaticamente.
+Maintainer: cyand00r Team <cyand00r.com>
+Author: cyand00r Team  <feedback@cyand00r.com>
+Sponsor: cyand00r Team <cyand00r.com>
+Section: cyand00r
+Depends: firmware (>= 7.0), com.saurik.substrate.safemode, mobilesubstrate (>= 0.9.5000)
+Conflicts: com.cyand00r.cyand00r
+Icon: file:///Applications/Cydia.app/Sections/cd_8.png

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>XVFSYCPB57.org.appaddict.ios</string>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>com.apple.multitasking.systemappassertions</key>
+	<true/>
+	<key>com.apple.backboard.client</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>XVFSYCPB57.*</string>
+	</array>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>Install</string>
+		<string>Browse</string>
+		<string>RebuildMaps</string>
+		<string>Lookup</string>
+		<string>Uninstall</string>
+		<string>Archive</string>
+		<string>RemoveArchive</string>
+		<string>CopyInstalledAppsForLaunchServices</string>
+		<string>InstallForLaunchServices</string>
+		<string>UninstallForLaunchServices</string>
+		<string>RebuildMapsForLaunchServices</string>
+	</array>
+	<key>com.apple.lsapplicationworkspace.rebuildappdatabases</key>
+	<true/>
+	<key>task_for_pid-allow</key>
+	<true/>
+	<key>com.apple.springboard.debugapplications</key>
+	<true/>
+	<key>run-unsigned-code</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+		<string>UniqueChipID</string>
+	</array>
+	<key>system-provisioning</key>
+	<true/>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>appaddict.org</string>
+	</array>
+</dict>
+</plist>

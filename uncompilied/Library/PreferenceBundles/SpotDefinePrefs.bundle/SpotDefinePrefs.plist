@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>SpotDefine.png</string>
+		<key>label</key>
+		<string>SpotDefine</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Spotlight</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>SearchSettings</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Dictionary Spotlight Section</string>
+			<key>footerText</key>
+            <string>To enable/disable the Dictionary section, do so above with "Spotlight Search"</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.tyhoff.spotdefine</string>
+			<key>key</key>
+			<string>AutoCorrectEnabled</string>
+			<key>PostNotification</key>
+			<string>com.tyhoff.spotdefine.preferencechanged</string>
+			<key>label</key>
+			<string>Auto Correct Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>com.tyhoff.spotdefine</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Max Results</string>
+			<key>key</key>
+			<string>MaxResults</string>
+			<key>validTitles</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Fixed Search Cell</string>
+			<key>footerText</key>
+            <string>Appears at bottom of Spotlight results.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.tyhoff.spotdefine</string>
+			<key>key</key>
+			<string>FixedSearchDictionaryCell</string>
+			<key>PostNotification</key>
+			<string>com.tyhoff.spotdefine.preferencechanged</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>Credit</string>
+			<key>footerText</key>
+            <string>If a language is incorrect or you would like another language added to SpotDefine, please send me an email and we can work on it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>SpotDefine 1.3.3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>label</key>
+			<string>Made by Tyler Hoffman</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate (PayPal)</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SpotDefine</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TITLE</key>
+	   <string>バッテリー</string>
+	<key>ENABLE</key>
+	   <string>アクティブにする</string> 
+	<key>PERCENTAGE</key>
+	   <string>バッテリーの残量</string> 
+    <key>TURN_OFF_ACTIVATED</key>
+	   <string>活性化されたときにバッテリーセーバーをオフにする</string> 
+    <key>BRIGHT</key>
+	   <string>活性化した明るさレベル</string> 
+    <key>SET_BRIGHT</key>
+	   <string>輝度レベル</string> 
+</dict>
+</plist>

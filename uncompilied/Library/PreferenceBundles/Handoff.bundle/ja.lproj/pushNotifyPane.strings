@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TITLE</key>
+	   <string>Handoff</string>
+	<key>ENABLE</key>
+	   <string>Aアクティブにする</string> 
+	<key>SYNC</key>
+	   <string>同期する</string> 
+    <key>SYNC_INFO</key>
+	   <string>お使いのMac上のサーバへの接続を確立</string> 
+    <key>HIDE_INFO</key>
+	   <string>Macでのみ通知やショーを非表示にします</string> 
+    <key>HIDE</key>
+	   <string>隠す</string> 
+    <key>DEVICE_INFO</key>
+	   <string>Mac上でのデバイスの名前を表示します</string>
+    <key>DEVICE</key>
+	   <string>名前</string> 
+</dict>
+</plist>

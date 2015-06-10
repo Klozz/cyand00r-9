@@ -1,0 +1,65 @@
+#!/bin/bash
+
+    echo "Restaurando copia de seguridad..."
+    cp /Applications/Music.app/Icon-20.png.bak /Applications/Music.app/Icon-20.png
+    cp /Applications/Music.app/Icon-29.png.bak /Applications/Music.app/Icon-29.png
+    cp /Applications/Music.app/Icon-40.png.bak /Applications/Music.app/Icon-40.png
+    cp /Applications/Music.app/Icon-58.png.bak /Applications/Music.app/Icon-58.png
+    cp /Applications/Music.app/Icon-72.png.bak /Applications/Music.app/Icon-72.png
+    cp /Applications/Music.app/Icon-76.png.bak /Applications/Music.app/Icon-76.png
+    cp /Applications/Music.app/Icon-80.png.bak /Applications/Music.app/Icon-80.png
+    cp /Applications/Music.app/Icon-120.png.bak /Applications/Music.app/Icon-120.png
+    cp /Applications/Music.app/Icon-144.png.bak /Applications/Music.app/Icon-144.png
+    cp /Applications/Music.app/Icon-152.png.bak /Applications/Music.app/Icon-152.png 
+
+    cp /Applications/Passbook.app/Icon-Small@2x.png.bak /Applications/Passbook.app/Icon-Small@2x.png
+    cp /Applications/Passbook.app/Info.plist.bak /Applications/Passbook.app/Info.plist
+    cp /Applications/Passbook.app/icon@2x.png.bak /Applications/Passbook.app/icon@2x.png
+    cp /etc/hosts.bak /etc/hosts
+    cp /private/etc/fstab.bak /private/etc/fstab
+    cp /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png.bak /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png
+    cp /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist.bak /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist
+    cp /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings.bak /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings
+    cp /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings.bak /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings
+    cp /System/Library/CoreServices/SpringBoard.app/es.lproj/Jibbler.strings.bak /System/Library/CoreServices/SpringBoard.app/es.lproj/Jibbler.strings
+    cp /var/mobile/Library/BulletinBoard/SectionOrder.plist.bak /var/mobile/Library/BulletinBoard/SectionOrder.plist
+    cp /var/mobile/Library/SpringBoard/IconState.plist.bak /var/mobile/Library/SpringBoard/IconState.plist
+    cp /var/mobile/Library/SpringBoard/LockBackground.cpbitmap.bak /var/mobile/Library/SpringBoard/LockBackground.cpbitmap
+    cp /var/mobile/Library/SpringBoard/LockBackgroundThumbnail.jpg.bak /var/mobile/Library/SpringBoard/LockBackgroundThumbnail.jpg
+    cp /var/mobile/Library/SpringBoard/OriginalLockBackground.cpbitmap.bak /var/mobile/Library/SpringBoard/OriginalLockBackground.cpbitmap
+    cp /System/Library/PrivateFrameworks/RadioUI.framework/radio-station-tuning-thumb@2x.png.bak /System/Library/PrivateFrameworks/RadioUI.framework/radio-station-tuning-thumb@2x.png
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Selected@2x.png.bak /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Selected@2x.png
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Unselected@2x.png.bak /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Unselected@2x.png
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Selected@2x.png.bak /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Selected@2x.png
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Unselected@2x.png.bak /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Unselected@2x.png
+    cp /System/Library/Frameworks/MediaToolbox.framework/N90/AVCaptureSession.plist.bak /System/Library/Frameworks/MediaToolbox.framework/N90/AVCaptureSession.plist
+    sleep 5
+    chown mobile.mobile /var/mobile/Library/SpringBoard/LockBackground.cpbitmap
+    chown mobile.mobile /var/mobile/Library/SpringBoard/LockBackgroundThumbnail.jpg
+    chown mobile.mobile /var/mobile/Library/SpringBoard/OriginalLockBackground.cpbitmap
+    chown mobile.mobile /var/mobile/Library/SpringBoard/IconState.plist
+    sleep 5
+    echo "Copia restaurada en: "
+    date
+    echo "____________"
+    sleep 5
+    clear
+    echo "cyand00r Desinstalado correctamente. :("
+    echo "http://cyand00r.com/"
+
+    chk=$(uname -m)
+
+if [[ "$chk" != iPod5* ]] && [[ "$chk" != iPhone4* ]] && [[ "$chk" != iPhone5* ]] && [[ "$chk" != iPhone6* ]] && [[ "$chk" != iPhone7* ]];then
+	cd /System/Library/PrivateFrameworks/PhotoLibrary.framework
+	rm -f firebreak-*.png
+	rm -f PLCameraButtonPano*_2only_.png
+fi
+
+	declare -a cydia
+	cydia=($CYDIA)
+
+	if [[ ${CYDIA+@} ]]; then
+		eval "echo 'finish:reboot' >&${cydia[0]}"
+	fi
+
+	exit 0

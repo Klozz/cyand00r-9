@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TITLE</key>
+	   <string>аккумулятор</string>
+	<key>ENABLE</key>
+	   <string>активизировать</string> 
+	<key>PERCENTAGE</key>
+	   <string>Уровень заряда аккумулятора</string> 
+    <key>TURN_OFF_ACTIVATED</key>
+	   <string>Уровень батареи</string> 
+    <key>BRIGHT</key>
+	   <string>Уровень яркости при активации</string> 
+    <key>SET_BRIGHT</key>
+	   <string>Уровень яркости</string> 
+</dict>
+</plist>

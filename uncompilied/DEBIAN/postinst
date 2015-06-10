@@ -1,0 +1,375 @@
+#!/bin/bash
+
+    sleep 3
+    uicache
+    echo "Corrigiendo permisos... (chmod)"
+    chmod 755 -R /Applications/AppAddict.app
+    chmod 755 -R /Applications/MusicApp.app
+    chmod 755 -R /Applications/News.app
+    chmod 755 -R /Applications/Tips.app
+    chmod 755 -R /Applications/Themes.app
+    chmod 755 -R /Applications/Radio.app
+    chmod 755 -R /Applications/HeartRate.app
+    chmod 755 -R /Applications/CAppStore.app
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/BurstMode.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/CameraTweak2.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/safaridownloader.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/Notific8.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/StillCapture2.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/BurstModePad7.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/VideoZoomEnabler.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/LiveEffectsEnabler.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SearchLoader.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SpotDefine.dylib
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/BurstMode.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/AppHide.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/StillCapture2.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/CameraTweak2.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/BurstModePad7.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/Notific8.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/VideoZoomEnabler.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/LiveEffectsEnabler.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SearchLoader.plist
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/SpotDefine.plist
+
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/actFix.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/actHack.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/actHook.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/BackBoardEnv7.dylib
+    chmod 755 /Library/MobileSubstrate/DynamicLibraries/PanoHook.dylib
+
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/actFix.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/actHack.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/actHook.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/BackBoardEnv7.plist
+    chmod 644 /Library/MobileSubstrate/DynamicLibraries/PanoHook.plist
+
+    chmod 644 /System/Library/CoreServices/SpringBoard/IconNewDot@2x.png
+    chmod 644 /System/Library/CoreServices/SpringBoard/DefaultIconState~iphone.plist
+    chmod 755 -R /Library/PreferenceBundles
+    echo "____________"
+    sleep 3
+    echo "Asignando permisos de usuarios... (chown)"
+    chown root.admin -R /Applications/News.app
+    chown root.admin -R /Applications/AppAddict.app
+    chown root.admin -R /Applications/Tips.app
+    chown root.admin -R /Applications/Themes.app
+    chown root.admin -R /Applications/Radio.app
+    chown root.admin -R /Applications/HeartRate.app
+    chown root.admin -R /Applications/CAppStore.app
+    chown root.admin -R /Applications/MusicApp.app
+        echo "____________"
+        sleep 3
+    echo "Configurando librerias dinamicas... (chown)"
+    #Dynamic Libraries------------------------------------------------------------------------
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/blurSL.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CameraTweak2.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/InteractiveMessageNotifications.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Centrex.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AppControl.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Notific8.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Nitrous.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/NitrousGestalt.dylib
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/AutoPause.dylib
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/AppHidee.dylib
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/BlurEnabler.dylib
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/NoFullscreenGrabbers.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BurstMode.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BurstModePad7.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BetrFoldr.dylib
+
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actFix.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actHack.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actHook.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BackBoardEnv7.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/PanoHook.dylib
+
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/IBGraphicsHack.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Purge.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CCSettings.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BatterySafe.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/StillCapture2.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/VideoZoomEnabler.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/LiveEffectsEnabler.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/WinterBoard.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BackBoardHookAW.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/StoreAlert.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/pushNotify.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/MessageRenamer7.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ItunesRadioUnlimited.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DoodleMessage.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DataLogoSwitcher.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ColorProfiles.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AlbumShot.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ClassicFolders.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SpotDefine.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AFVideo.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CoverFlowSwitcher3d.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/GridSwitcher.dylib
+
+    #Plist MobileSubstrate Files------------------------------------------------------------------------
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Centrex.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/blurSL.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/InteractiveMessageNotifications.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CameraTweak2.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AppControl.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Notific8.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Nitrous.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/NitrousGestalt.plist
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/AutoPause.plist
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/AppHide.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.plist
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/BlurEnabler.plist
+    chown mobile.staff /Library/MobileSubstrate/DynamicLibraries/NoFullscreenGrabbers.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BurstMode.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BetrFoldr.plist
+
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actFix.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actHack.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/actHook.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BackBoardEnv7.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/PanoHook.plist
+
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/IBGraphicsHack.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Purge.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CCSettings.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BatterySafe.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/StillCapture2.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BurstModePad7.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SlalomEnabler.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/VideoZoomEnabler.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/LiveEffectsEnabler.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/WinterBoard.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/BackBoardHookAW.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/StoreAlert.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/pushNotify.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/MessageRenamer7.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ItunesRadioUnlimited.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DoodleMessage.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DataLogoSwitcher.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ColorProfiles.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AlbumShot.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ClassicFolders.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SpotDefine.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AFVideo.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CoverFlowSwitcher.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/GridSwitcher.plist
+
+    #PreferenceBundles------------------------------------------------------------------------
+    chown mobile.staff /Library/PreferenceBundles/BlurEnablerSettings.bundle
+    chown mobile.staff /Library/PreferenceBundles/SpotDefinePrefs.bundle
+    #chown mobile.staff -R /Library/PreferenceBundles/AppHideSettings.bundle
+    #chown root.wheel /Library/PreferenceBundles/SlalomModSettings.bundle
+    chown root.wheel /Library/PreferenceBundles/CameraTweak2_Prefs.bundle
+    chown root.wheel /Library/PreferenceBundles/Handoff.bundle
+    chown root.wheel /Library/PreferenceBundles/Nitrous.bundle
+    #chown root.wheel /Library/PreferenceBundles/PurgePrefs.bundle
+    chown root.wheel /Library/PreferenceBundles/QuickType.bundle
+    #chown root.wheel /Library/PreferenceBundles/CouriaPreferences.bundle
+    #chown root.wheel /Library/PreferenceBundles/DataLogoSwitcher.bundle
+    chown root.wheel /Library/PreferenceBundles/BatterySaver.bundle
+    chown root.wheel /Library/PreferenceBundles/Betrfoldrs.bundle
+    #chown root.wheel /Library/PreferenceBundles/CCSettingsPreferences.bundle
+    chown mobile.staff /Library/PreferenceBundles/BlurEnablerSettings.bundle
+    chown mobile.staff /Library/PreferenceBundles/3DSwitcher.bundle.bundle
+    #chown root.wheel /Library/PreferenceBundles/BurstModeSettings.bundle
+    #chown root.wheel /Library/PreferenceBundles/PanoPreferences.bundle
+        echo "____________"
+            sleep 3
+    echo "Configurando Frameworks... (chown)"
+    #Frameworks------------------------------------------------------------------------
+    chown root.wheel /System/Library/PrivateFrameworks/PhotoLibrary.framework
+    chown root.wheel /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Unselected@2x.png
+    chown root.wheel /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Selected@2x.png
+    chown root.wheel /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Unselected@2x.png
+    chown root.wheel /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Selected@2x.png
+    chown root.wheel /System/Library/PrivateFrameworks/RadioUI.framework/radio-station-tuning-thumb@2x.png
+    chown root.wheel /System/Library/FavoriteContacts7.bundle
+        echo "____________"
+            sleep 3
+    echo "Configurando librerias... (chown)"
+    #Libraries------------------------------------------------------------------------
+    chown root.wheel /usr/lib/InjectionAW.dylib
+    chown root.wheel -R /usr/libexec/winterboard
+    chown root.admin -R /Library/Application\ Support/CCSettings
+    chown root.wheel -R /Library/Application\ Support/AppControl
+    chown root.wheel -R /Library/Application\ Support/CameraTweak2
+    chown root.admin -R /Library/Application\ Support/PredictiveKeyboard
+    chown root.wheel /System/Library/PreferenceBundles/WinterBoardSettings.bundle
+    chown root.wheel /System/Library/CoreServices/SpringBoard.app/ControlCenterGlyphLessBright@2x.png
+    chown root.wheel /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png
+    chown root.wheel /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist
+    chown mobile.mobile /var/mobile/Library/BulletinBoard/SectionOrder.plist
+    chown root.wheel /etc/hosts
+    echo "____________"
+    sleep 3
+
+    echo "Configurando iOS..."
+    chown mobile.mobile /var/mobile/Library/SpringBoard/LockBackground.cpbitmap
+    chown mobile.mobile /var/mobile/Library/SpringBoard/LockBackgroundThumbnail.jpg
+    chown mobile.mobile /var/mobile/Library/SpringBoard/OriginalLockBackground.cpbitmap
+    chown mobile.mobile /var/mobile/Library/SpringBoard/IconState.plist
+    chown mobile.mobile /var/mobile/Library/BulletinBoard/SectionOrder.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.iphoneclan.slowcamera.plist
+    chown root.mobile /var/mobile/Library/Preferences/com.plipala.ccsettings.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.BurstMode.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.actHack.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.IBGraphicsHack.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.SlalomMod.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.StillCaptureEnabler2.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.VideoZoomMod.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.rpetrich.colorprofiles.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.saurik.WinterBoard.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.uknl.betrfoldrs.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/de.2peaches.favoritecontacts.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.freemanrepo.pushnotifier.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/tw.hiraku.datalogoswitcher.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.samball.CameraTweak2.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.jerryen.BlurEnabler.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.jerryen.AppHide.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/kr.slak.iphone4parallax.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/org.thebigboss.CentrexSettings.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/org.coolstar.classicfolders.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/org.coolstar.coverflowswitcher.plist
+    chown mobile.mobile /var/mobile/Library/LibHide/hidden.plist
+    chmod 644 /var/mobile/Library/Preferences/com.jerryen.AppHide.plist
+    chown root.wheel -R /Library/Switches/pushNotifyToggle.bundle
+        echo "____________"
+            sleep 3
+
+    echo "Configurando binarios... (chown)"
+    #Binaries------------------------------------------------------------------------
+    chown root.wheel /usr/bin/PTGen
+    chown root.wheel /usr/bin/PanoRemover
+    chown root.wheel /usr/bin/PanoInstaller
+    chown root.wheel /usr/bin/RootHelper
+    chown root.wheel /usr/lib/PanoHook7.dylib
+    chmod 755 /usr/lib/PanoHook7.dylib
+    chown root.wheel /Library/LaunchDaemons/com.ps.panomod.helper.plist
+    chmod 644 /Library/LaunchDaemons/com.ps.panomod.helper.plist
+    chmod 755 /usr/bin/PanoRemover
+    chmod 755 /usr/bin/PanoInstaller
+    chmod 755 /usr/bin/RootHelper
+
+    echo "____________"
+            sleep 3
+
+    echo "Modificando el sistema..."
+    #echo "PredictiveKeyboard"------------------------------------------------------------------------
+    sleep 3
+    chown root /usr/bin/PredictiveKeyboard
+    chgrp wheel /usr/bin/PredictiveKeyboard
+    chmod 755 /usr/bin/PredictiveKeyboard
+  # chown -R mobile:mobile /Library/Application\ Support/PredictiveKeyboard
+    chmod -R 777 /Library/Application\ Support/PredictiveKeyboard
+    chown root /Library/Application\ Support/PredictiveKeyboard/resources
+    chgrp wheel /Library/Application\ Support/PredictiveKeyboard/resources
+    chmod 755 /Library/Application\ Support/PredictiveKeyboard/resources
+    chown root /System/Library/LaunchDaemons/com.fralima.predictivekeyboard.plist || true
+    chgrp wheel /System/Library/LaunchDaemons/com.fralima.predictivekeyboard.plist || true
+    launchctl unload -w /System/Library/LaunchDaemons/com.fralima.predictivekeyboard.plist 2>/dev/null
+        chown root.wheel /System/Library/LaunchDaemons/com.apple.sharingd.plist
+        chown mobile /System/Library/PrivateFrameworks/Sharing.framework
+        chown mobile /sur/libexec/sharingd
+        chown root.wheel -R /Library/Application\ Support/iOS8-IMN
+    sleep 1
+    launchctl load -w /System/Library/LaunchDaemons/com.fralima.predictivekeyboard.plist
+    echo "____________"
+    sleep 3
+
+    echo " ... "
+    echo "All Your Base Are Belong To Us"
+    echo " ... "
+
+    sleep 3
+
+#echo "VideoStillCapture"------------------------------------------------------------------------
+
+    chk=$(uname -m)
+
+if [[ "$chk" == "iPod4,1" ]] || [[ "$chk" == iPhone3* ]] || [[ "$chk" == "iPhone4,1" ]];then
+	cd /System/Library/PrivateFrameworks/PhotoLibrary.framework
+	mv -f PLCameraVideoStillCaptureIconPressed_2only_-568h@2x~ipad.png PLCameraVideoStillCaptureIconPressed_2only_-568h@2x~iphone.png
+	mv -f PLCameraVideoStillCaptureIcon_2only_-568h@2x~ipad.png PLCameraVideoStillCaptureIcon_2only_-568h@2x~iphone.png
+fi
+
+#echo "Panohook"------------------------------------------------------------------------
+
+    chk=$(uname -m)
+
+chown 0:0 /Library/LaunchDaemons/com.ps.panomod.helper.plist
+chmod 644 /Library/LaunchDaemons/com.ps.panomod.helper.plist
+launchctl load /Library/LaunchDaemons/com.ps.panomod.helper.plist
+
+if [[ "$chk" == iPod5* ]] || [[ "$chk" == iPhone4* ]] || [[ "$chk" == iPhone5* ]] || [[ "$chk" == iPhone6* ]] || [[ "$chk" == iPhone7* ]];then
+	rm -f /Library/MobileSubstrate/DynamicLibraries/PanoHook*
+	rm -f /Library/MobileSubstrate/DynamicLibraries/BackBoardEnv*
+	rm -f /Library/MobileSubstrate/DynamicLibraries/actFix*
+	rm -f /usr/lib/PanoHook7.dylib
+else
+	if [[ "$chk" == iPad* ]];then
+		rm -f /Library/MobileSubstrate/DynamicLibraries/actFix*
+	fi
+	cp /Library/PanoModUI/*.png /System/Library/PrivateFrameworks/PhotoLibrary.framework
+fi
+
+killall RootHelper
+
+rm -rf /Library/PanoModUI
+
+
+#echo "Burst Mode"------------------------------------------------------------------------
+
+#if [ ! -d "/System/Library/PrivateFrameworks/PhysicsKit.framework" ];then
+#	rm -f /Library/MobileSubstrate/DynamicLibraries/BurstModePad7*
+#	rm -rf /System/Library/PrivateFrameworks/PhotosUI.framework
+#fi
+
+
+#echo "Cleaning"------------------------------------------------------------------------
+
+    sleep 3
+    echo "Limpiando el desastre..."
+    rm -R /var/mobile/Library/Caches/com.apple.IconsCache
+    rm -R /var/mobile/Library/Caches/com.apple.SpringBoard
+    rm /var/mobile/Library/SpringBoard/DesiredIconState.plist
+        rm /Library/Themes/.DS_Store
+    uicache
+    sleep 3
+    echo "____________"
+    echo "Developed by cyand00r Team"
+    echo "http://cyand00r.com/"
+
+    uicache
+    uicache
+
+    su mobile -c uicache
+
+    #Reboot------------------------------------------------------------------------
+    echo "____________"
+            echo ""
+        echo "***********************"
+        echo "** CODENAME: MONTRON **"
+        echo "** BETA 1 RELEASE    **"
+        echo "***********************"
+        echo ""
+        echo "ONLY FOR DEVELOPMENT PURPOSES"
+        echo ""
+    echo "____________"
+
+declare -a cydia
+cydia=($CYDIA)
+
+if [[ ${CYDIA+@} ]]; then
+eval "echo 'finish:reboot' >&${cydia[0]}"
+fi
+
+exit 0

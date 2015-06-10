@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TITLE</key>
+	   <string>Handoff</string>
+	<key>ENABLE</key>
+	   <string>Activar</string> 
+	<key>SYNC</key>
+	   <string>Sincronizar</string> 
+    <key>SYNC_INFO</key>
+	   <string>Establece la conexion con el servidor de tu Mac.</string> 
+    <key>HIDE_INFO</key>
+	   <string>Oculta las notificaciones y solo las muestra en la Mac.</string> 
+    <key>HIDE</key>
+	   <string>Ocultar</string> 
+    <key>DEVICE_INFO</key>
+	   <string>Muestra el nombre del dispositivo en la Mac.</string>
+    <key>DEVICE</key>
+	   <string>Nombre del Dispositivo</string> 
+</dict>
+</plist>

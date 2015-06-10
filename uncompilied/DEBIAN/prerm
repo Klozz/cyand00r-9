@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#--- Remover PanoMod
+declare -a cydia
+cydia=($CYDIA)
+chk=$(uname -m)
+
+launchctl unload /Library/LaunchDaemons/com.ps.panomod.helper.plist
+
+if [[ $1 == remove ]]; then
+   	PanoRemover
+fi
+
+exit 0

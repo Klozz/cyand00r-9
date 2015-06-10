@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BatterySaver;
+	cell = PSLinkCell;
+	detail = BatterySafePrefListController;
+	icon = BatterySafePref.png;
+	isController = 1;
+	label = "Battery";
+    };
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TITLE</key>
+	   <string>Batería</string>
+	<key>ENABLE</key>
+	   <string>Modo de Bajo Consumo</string> 
+	<key>PERCENTAGE</key>
+	   <string>Nivel de Bateria</string> 
+    <key>TURN_OFF_ACTIVATED</key>
+	   <string>Apagar al activarse el Modo de Bajo Consumo</string> 
+    <key>BRIGHT</key>
+	   <string>Nivel de brillo al activarse el Modo de Bajo Consumo</string> 
+    <key>SET_BRIGHT</key>
+	   <string>Nivel de Brillo</string> 
+</dict>
+</plist>

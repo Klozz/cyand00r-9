@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+        <dict>
+			<key>Title</key>
+			<string>Article Browser</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+            <key>FooterText</key>
+			<string>If swiping doesn't work in some cases, disabling Embed Frames may help</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Globe Button Action</string>
+			<key>Key</key>
+			<string>pref_globe_button_action</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Titles</key>
+			<array>
+				<string>Open in Web Browser</string>
+				<string>Toggle Readability</string>
+                <string>Open in Safari</string>
+                <string>Open in Chrome</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Left/Right Swipe</string>
+			<key>Key</key>
+			<string>pref_left_right_swipe</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Go Back/Open in Web Browser</string>
+                <string>Go Back/Toggle Readability</string>
+				<string>Previous/Next Article</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+                <integer>2</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Mark Items Read</string>
+			<key>Key</key>
+			<string>pref_mark_items_read</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>On Open</string>
+				<string>Manually</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Disable Full Screen</string>
+			<key>Key</key>
+			<string>pref_disable_full_screen</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show Article Counter</string>
+			<key>Key</key>
+			<string>pref_show_article_counter</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Embed Frames</string>
+			<key>Key</key>
+			<string>pref_show_frames</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+        <dict>
+			<key>Title</key>
+			<string>Article/Subscription Listing</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+            <key>FooterText</key>
+			<string>If certain characters don't display correctly, changing Title Font may help</string>
+		</dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>[WidePhone]Use Split View</string>
+            <key>Key</key>
+            <string>pref_use_split_view</string>
+            <key>DefaultValue</key>
+            <true/>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSToggleSwitchSpecifier</string>
+            <key>Title</key>
+            <string>[Split]Show Folder Expand Button</string>
+            <key>Key</key>
+            <string>pref_show_folder_expand</string>
+            <key>DefaultValue</key>
+            <false/>
+        </dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Open Items</string>
+			<key>Key</key>
+			<string>pref_open_items</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Article Browser</string>
+				<string>Web Browser</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Dim Read Items</string>
+			<key>Key</key>
+			<string>pref_dim_read_items</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>On/Lighter</string>
+				<string>On/Darker</string>
+                <string>Off</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Article Search</string>
+			<key>Key</key>
+			<string>pref_quick_search</string>
+			<key>DefaultValue</key>
+			<integer>1</integer>
+			<key>Titles</key>
+			<array>
+				<string>Title Only</string>
+				<string>RSS Text (Full Text with Premium)</string>
+                <string>Hide</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>1</integer>
+				<integer>0</integer>
+                <integer>2</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Larger Fonts</string>
+			<key>Key</key>
+			<string>pref_large_fonts</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Summary Font</string>
+			<key>Key</key>
+			<string>pref_alt_summary_font</string>
+			<key>DefaultValue</key>
+			<string>Georgia</string>
+			<key>Titles</key>
+			<array>
+                <string>[iOS7]Avenir</string>
+				<string>Georgia</string>
+				<string>Helvetica</string>
+                <string>Helvetica Neue</string>
+				<string>Verdana</string>
+                <string>Palatino</string>
+                <string>Times New Roman</string>
+			</array>
+			<key>Values</key>
+			<array>
+                <string>Avenir</string>
+				<string>Georgia</string>
+				<string>Helvetica</string>
+                <string>HelveticaNeue</string>
+				<string>Verdana</string>
+                <string>Palatino</string>
+                <string>Times New Roman</string>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Title Font (Classic Theme)</string>
+			<key>Key</key>
+			<string>pref_alt_title_font</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Default</string>
+				<string>Alternate Bold-Condensed</string>
+                <string>Alternate Bold</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Title Font (Light Theme)</string>
+			<key>Key</key>
+			<string>pref_alt_title_font_light</string>
+            <key>MinimumOS</key>
+			<integer>700</integer>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Default</string>
+                <string>Alternate Semibold</string>
+				<string>Alternate Bold</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Title</key>
+			<string>Table View</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show Article Summary</string>
+			<key>Key</key>
+			<string>pref_show_summary</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Show Article Source/Time</string>
+			<key>Key</key>
+			<string>pref_show_metadata</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+        <dict>
+			<key>Title</key>
+			<string>Marking Items Read</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Mark While Scrolling</string>
+			<key>Key</key>
+			<string>pref_mark_items_while_scrolling</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Pull Up to Mark All</string>
+			<key>Key</key>
+			<string>pref_pull_to_mark_all</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+			<key>Title</key>
+			<string>Tap-and-Hold Action</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Read Items</string>
+			<key>Key</key>
+			<string>pref_tap_and_hold_action</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Toggle Starred</string>
+				<string>Mark Unread</string>
+                <string>Send to Pocket</string>
+                <string>Send to Instapaper</string>
+                <string>Send to Readability</string>
+                <string>[iOS7]Send to Safari Reading List</string>
+                <string>[iOS8]Show iOS Share Sheet</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Unread Items</string>
+			<key>Key</key>
+			<string>pref_tap_and_hold_action_unread</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+                <string>Mark Read</string>
+				<string>Toggle Starred</string>
+                <string>Send to Pocket</string>
+                <string>Send to Instapaper</string>
+                <string>Send to Readability</string>
+                <string>[iOS7]Send to Safari Reading List</string>
+                <string>[iOS8]Show iOS Share Sheet</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+			</array>
+		</dict>
+        <dict>
+            <key>Title</key>
+            <string>Swipe Left Action</string>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Read Items</string>
+            <key>Key</key>
+            <string>pref_swipe_left_action</string>
+            <key>DefaultValue</key>
+            <integer>0</integer>
+            <key>Titles</key>
+            <array>
+                <string>Toggle Starred</string>
+                <string>Mark Unread</string>
+                <string>Send to Pocket</string>
+                <string>Send to Instapaper</string>
+                <string>Send to Readability</string>
+                <string>[iOS7]Send to Safari Reading List</string>
+                <string>[iOS8]Show iOS Share Sheet</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+            </array>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Unread Items</string>
+            <key>Key</key>
+            <string>pref_swipe_left_action_unread</string>
+            <key>DefaultValue</key>
+            <integer>0</integer>
+            <key>Titles</key>
+            <array>
+                <string>Mark Read</string>
+                <string>Toggle Starred</string>
+                <string>Send to Pocket</string>
+                <string>Send to Instapaper</string>
+                <string>Send to Readability</string>
+                <string>[iOS7]Send to Safari Reading List</string>
+                <string>[iOS8]Show iOS Share Sheet</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+            </array>
+        </dict>
+        <dict>
+			<key>Title</key>
+			<string>Sharing</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Facebook Sharing</string>
+			<key>Key</key>
+			<string>pref_facebook_sharing</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+            <key>Titles</key>
+			<array>
+				<string>Use In-App Sharing</string>
+				<string>Use Facebook App (if installed)</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Evernote Quick Save</string>
+			<key>Key</key>
+			<string>pref_evernote_quick_send</string>
+            <key>MinimumOS</key>
+			<integer>700</integer>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+        <dict>
+            <key>Type</key>
+            <string>PSMultiValueSpecifier</string>
+            <key>Title</key>
+            <string>Share Button Action</string>
+            <key>Key</key>
+            <string>pref_use_native_share_sheet</string>
+            <key>MinimumOS</key>
+            <integer>800</integer>
+            <key>DefaultValue</key>
+            <integer>0</integer>
+            <key>Titles</key>
+            <array>
+                <string>Show all share options</string>
+                <string>Show Newsify share options</string>
+                <string>Show iOS Share Sheet</string>
+            </array>
+            <key>Values</key>
+            <array>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>1</integer>
+            </array>
+        </dict>
+        <dict>
+            <key>Type</key>
+            <string>IASKCustomViewSpecifier</string>
+            <key>Key</key>
+            <string>shareServices</string>
+            <key>Title</key>
+            <string>Share Services &amp; Actions</string>
+            <key>MinimumOS</key>
+            <integer>800</integer>
+        </dict>
+        <dict>
+			<key>Title</key>
+			<string>Default Recipients</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+            <key>FooterText</key>
+			<string>Separate multiple addresses with a space</string>
+		</dict>
+        <dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Title</key>
+			<string>Email</string>
+			<key>KeyboardType</key>
+			<string>EmailAddress</string>
+			<key>Key</key>
+			<string>pref_email_recipients</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+            <key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>Title</key>
+	<string>WhereTo</string>
+</dict>
+</plist>

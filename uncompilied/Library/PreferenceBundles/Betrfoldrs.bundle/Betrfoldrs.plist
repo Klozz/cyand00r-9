@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string>Folders</string>
+	</dict>
+			<dict>
+				<key>cell</key>             <string>PSSwitchCell</string>
+				<key>default</key>          <false/>
+				<key>defaults</key>         <string>com.uknl.betrfoldrs</string>
+				<key>key</key>              <string>p2cisEnabled</string>
+				<key>label</key>            <string> Pinch to close Enabled:</string>
+				<key>alternateColors</key>  <true/>
+				<key>PostNotification</key> <string>com.uknl.betrfoldrs/settingschanged</string>
+			</dict>
+		
+			<dict>
+				<key>cell</key>             <string>PSSwitchCell</string>
+				<key>default</key>          <false/>
+				<key>defaults</key>         <string>com.uknl.betrfoldrs</string>
+				<key>key</key>              <string>NestisEnabled</string>
+				<key>label</key>            <string>Nested Folders Enabled:</string>
+				<key>alternateColors</key>  <true/>
+				<key>PostNotification</key> <string>com.uknl.betrfoldrs/settingschanged</string>
+			</dict>
+			
+			<dict>
+				<key>cell</key>             <string>PSSwitchCell</string>
+				<key>default</key>          <false/>
+				<key>defaults</key>         <string>com.uknl.betrfoldrs</string>
+				<key>key</key>              <string>ClearbgisEnabled</string>
+				<key>label</key>            <string>Clear Background Enabled:</string>
+				<key>alternateColors</key>  <true/>
+				<key>PostNotification</key> <string>com.uknl.betrfoldrs/settingschanged</string>
+			</dict>	
+			
+			<dict>
+				<key>cell</key>             <string>PSSwitchCell</string>
+				<key>default</key>          <false/>
+				<key>defaults</key>         <string>com.uknl.betrfoldrs</string>
+				<key>key</key>              <string>WallZoomisEnabled</string>
+				<key>label</key>            <string>No Wallpaper Zoom:</string>
+				<key>alternateColors</key>  <false/>
+				<key>PostNotification</key> <string>com.uknl.betrfoldrs/settingschanged</string>
+			</dict>	
+			
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Clear Folder Icons uses replace blurs. This will make some things look different. The dock is slightly more translucent.</string>
+			</dict>	
+			
+			<dict>
+				<key>cell</key>             <string>PSSwitchCell</string>
+				<key>default</key>          <false/>
+				<key>defaults</key>         <string>com.uknl.betrfoldrs</string>
+				<key>key</key>              <string>ClearIconisEnabled</string>
+				<key>label</key>            <string>Clear Folder Icon:*</string>
+				<key>alternateColors</key>  <false/>
+				<key>PostNotification</key> <string>com.uknl.betrfoldrs/settingschanged</string>
+			</dict>
+						
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string></string>
+			</dict>	
+			
+			<dict>
+				<key>cell</key>             <string>PSButtonCell</string>
+				<key>label</key>            <string>*Respring To Save Changes</string>
+				<key>action</key>           <string>Respring</string>
+			</dict>
+			
+	<dict>
+		<key>cell</key>
+		<string>PSGroupCell</string>
+		<key>label</key>
+		<string></string>
+	</dict>
+		<dict>
+			<key>cell</key>             <string>PSButtonCell</string>
+			<key>label</key>            <string>Follow on Twitter</string>
+			<key>action</key>           <string>Launchtwitter</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>BetrFoldrs</string>
+</dict>
+</plist>

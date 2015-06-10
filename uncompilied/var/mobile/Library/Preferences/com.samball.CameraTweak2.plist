@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advPhotoModeAsDefault</key>
+	<integer>0</integer>
+	<key>advVideoModeAsDefault</key>
+	<integer>0</integer>
+	<key>blurButtonBar</key>
+	<integer>1</integer>
+	<key>rememberSettings</key>
+	<false/>
+	<key>showDimensions</key>
+	<integer>0</integer>
+	<key>showFPS</key>
+	<integer>1</integer>
+	<key>showHelpHowToHide</key>
+	<false/>
+	<key>showHelpHowToShow</key>
+	<false/>
+	<key>showHorizonAlignment</key>
+	<integer>0</integer>
+	<key>showMemoryWarning</key>
+	<integer>0</integer>
+	<key>showOverlays</key>
+	<integer>0</integer>
+	<key>showVerticalAlert</key>
+	<integer>0</integer>
+</dict>
+</plist>

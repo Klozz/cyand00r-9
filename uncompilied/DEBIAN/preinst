@@ -1,0 +1,69 @@
+#!/bin/bash
+
+    # Comprobar si hay copia de seguridad, para no sobreescribir la existente
+    file="/private/etc/fstab.bak"
+if [ -f "$file" ]
+then
+	echo "Actualizando..."
+else
+
+	    echo "Realizando copia de seguridad..."
+    cp /Applications/Music.app/Icon-20.png /Applications/Music.app/Icon-20.png.bak
+    cp /Applications/Music.app/Icon-29.png /Applications/Music.app/Icon-29.png.bak
+    cp /Applications/Music.app/Icon-40.png /Applications/Music.app/Icon-40.png.bak
+    cp /Applications/Music.app/Icon-58.png /Applications/Music.app/Icon-58.png.bak
+    cp /Applications/Music.app/Icon-72.png /Applications/Music.app/Icon-72.png.bak
+    cp /Applications/Music.app/Icon-76.png /Applications/Music.app/Icon-76.png.bak
+    cp /Applications/Music.app/Icon-80.png /Applications/Music.app/Icon-80.png.bak
+    cp /Applications/Music.app/Icon-120.png /Applications/Music.app/Icon-120.png.bak
+    cp /Applications/Music.app/Icon-144.png /Applications/Music.app/Icon-144.png.bak
+    cp /Applications/Music.app/Icon-152.png /Applications/Music.app/Icon-152.png.bak
+
+    cp /Applications/Passbook.app/Icon-Small@2x.png /Applications/Passbook.app/Icon-Small@2x.png.bak
+    cp /Applications/Passbook.app/icon@2x.png /Applications/Passbook.app/icon@2x.png.bak
+    cp /etc/hosts /etc/hosts.bak
+    cp /private/etc/fstab /private/etc/fstab.bak
+    cp /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png.bak
+    cp /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist.bak
+    cp /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings.bak
+    cp /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings.bak
+    cp /System/Library/CoreServices/SpringBoard.app/es.lproj/Jibbler.strings /System/Library/CoreServices/SpringBoard.app/es.lproj/Jibbler.strings.bak
+    cp /var/mobile/Library/BulletinBoard/SectionOrder.plist /var/mobile/Library/BulletinBoard/SectionOrder.plist.bak
+    cp /var/mobile/Library/SpringBoard/IconState.plist /var/mobile/Library/SpringBoard/IconState.plist.bak
+    cp /System/Library/PrivateFrameworks/RadioUI.framework/radio-station-tuning-thumb@2x.png /System/Library/PrivateFrameworks/RadioUI.framework/radio-station-tuning-thumb@2x.png.bak
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Selected@2x.png /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Selected@2x.png.bak
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Unselected@2x.png /System/Library/PrivateFrameworks/PhotosUI.framework/AlbumsTab-Unselected@2x.png.bak
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Selected@2x.png /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Selected@2x.png.bak
+    cp /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Unselected@2x.png /System/Library/PrivateFrameworks/PhotosUI.framework/PhotosTab-Unselected@2x.png.bak
+    cp /System/Library/Frameworks/MediaToolbox.framework/N90/AVCaptureSession.plist /System/Library/Frameworks/MediaToolbox.framework/N90/AVCaptureSession.plist.bak
+    sleep 3
+
+
+fi
+
+    echo "Copia de seguridad almacenada como: "
+    date
+    echo "____________"
+    sleep 3
+    echo "Preparando el sistema..."
+    sleep 5
+    rm /var/mobile/Library/Preferences/com.iphoneclan.slowcamera.plist
+    rm /var/mobile/Library/Preferences/com.plipala.ccsettings.plist
+    rm /var/mobile/Library/Preferences/com.PS.BurstMode.plist
+    rm /var/mobile/Library/Preferences/com.PS.actHack.plist
+    rm /var/mobile/Library/Preferences/com.PS.IBGraphicsHack.plist
+    rm /var/mobile/Library/Preferences/com.PS.SlalomMod.plist
+    rm /var/mobile/Library/Preferences/com.PS.StillCaptureEnabler2.plist
+    rm /var/mobile/Library/Preferences/com.PS.VideoZoomMod.plist
+    rm /var/mobile/Library/Preferences/com.rpetrich.colorprofiles.plist
+    rm /var/mobile/Library/Preferences/com.saurik.WinterBoard.plist
+    rm /var/mobile/Library/Preferences/com.uknl.betrfoldrs.plist
+    rm /var/mobile/Library/Preferences/de.2peaches.favoritecontacts.plist
+    rm /var/mobile/Library/Preferences/me.qusic.couria.plist
+    rm /var/mobile/Library/Preferences/com.freemanrepo.pushnotifier.plist
+    rm /var/mobile/Library/Preferences/tw.hiraku.datalogoswitcher.plist
+    rm /var/mobile/Library/Preferences/com.jerryen.BlurEnabler.plist
+    rm /var/mobile/Library/SpringBoard/IconState.plist
+    echo "Instalando cyand00r"
+
+    exit 0

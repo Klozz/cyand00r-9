@@ -1,0 +1,15 @@
+{
+	Filter = {
+		Bundles = (
+			"com.apple.springboard",
+			"com.apple.MobileSMS",
+			"com.apple.mobilemail",
+			"com.apple.Preferences",
+			"net.whatsapp.WhatsApp",
+			"jp.naver.line",
+			"com.kik.chat",
+			"com.blackberry.bbm1",
+			"com.facebook.Messenger",
+		);
+	};
+}
