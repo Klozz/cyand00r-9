@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>precision</string>
+				<key>title</key>
+				<string>How accurate is the Withings Blood Pressure Monitor ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>prendretension</string>
+				<key>title</key>
+				<string>How should I take my blood pressure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>quelmoment</string>
+				<key>title</key>
+				<string>When should I take my blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>deroulement</string>
+				<key>title</key>
+				<string>How is the test performed ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpreter</string>
+				<key>title</key>
+				<string>How should I interpret my results?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>partage</string>
+				<key>title</key>
+				<string>How can I share my data ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>accesligne</string>
+				<key>title</key>
+				<string>How can I consult my data on line?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Withings Blood Pressure Monitor</string>
+	</dict>
+</array>
+</plist>

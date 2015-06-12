@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>day0-TheBasicsOfSleep</string>
+				<key>title</key>
+				<string>Grundwissen zum Schlaf</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>day4-The10GoldenRulesOfSleep</string>
+				<key>title</key>
+				<string>Die zehn goldenen Schlafregeln</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>day8-SleepWhatYouNeedToKnow</string>
+				<key>title</key>
+				<string>Was Sie über Schlaf wissen sollten</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>day12-SleepingProblems</string>
+				<key>title</key>
+				<string>Verschiedene Schlafstörungen</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>day15-FAQ</string>
+				<key>title</key>
+				<string>Häufig gestellte Fragen</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Recommandations</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,113 @@
+[
+    {
+    "title": "__HY REMINDER TITLE__",
+    "description": "__HY REMINDER DESCRIPTION__",
+    "cells": [
+      {
+        "title": "__HY FORM HYPERTENSION__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResultHypertension",
+        "choices": [
+          {
+            "title": "__YES__"
+          },
+          {
+            "title": "__NO__"
+          }
+        ]
+      },
+      {
+        "title": "__HY FORM DIABETES__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResultDiabetes",
+        "choices": [
+          {
+            "title": "__YES__"
+          },
+          {
+            "title": "__NO__"
+          },
+          {
+            "title": "__HY FORM MAYBE__"
+          }
+        ]
+      },
+      {
+        "title": "__HY FORM RENAL FAILURE__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResulRenalFailure",
+        "choices": [
+          {
+            "title": "__YES__"
+          },
+          {
+            "title": "__NO__"
+          },
+          {
+            "title": "__HY FORM MAYBE__"
+          }
+        ]
+      },
+      {
+        "title": "__HY FORM CEREBROVASCULAR ACCIDENT__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResultCerebrovascularAccident",
+        "choices": [
+          {
+            "title": "__YES__"
+          },
+          {
+            "title": "__NO__"
+          },
+          {
+            "title": "__HY FORM MAYBE__"
+          }
+        ]
+      },
+      {
+        "title": "__HY FORM SMOKER__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResultsmoker",
+        "choices": [
+          {
+            "title": "__YES__"
+          },
+          {
+            "title": "__NO__"
+          }
+        ]
+      },
+      {
+        "title": "__HY FORM COUNT GLASSES__",
+        "type": "segmented",
+        "mandatory": true,
+        "key": "HyResultGlasses",
+        "choices": [
+          {
+            "title": "0"
+          },
+          {
+            "title": "1"
+          },
+          {
+            "title": "2"
+          },
+          {
+            "title": "3"
+          },
+          {
+            "title": "4"
+          },
+          {
+            "title": "5+"
+          }
+        ]
+      }
+    ]
+  }
+]

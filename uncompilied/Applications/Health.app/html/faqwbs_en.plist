@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>2549003</string>
+				<key>title</key>
+				<string>Do I need to pay a subscription fee to use my Withings body scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1620098</string>
+				<key>title</key>
+				<string>Can I use my Withings scale even if I don't have an iPhone?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8417014</string>
+				<key>title</key>
+				<string>Can several people use the same Withings body scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9932414</string>
+				<key>title</key>
+				<string>If several of us use the same Withings body scale, can I still keep my data private?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6009310</string>
+				<key>title</key>
+				<string>Since my measurements are recorded on line, can't anyone see them?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3738912</string>
+				<key>title</key>
+				<string>Must I tweet my weight?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5796111</string>
+				<key>title</key>
+				<string>What equipment do I need to use the Withings body scale?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Use of the body scale</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>7239095</string>
+				<key>title</key>
+				<string>I am not really a "technical" person. Is the scale easy to set up?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>How to start my scale set up?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3412711</string>
+				<key>title</key>
+				<string>How can I tell if the Withings body scale is compatible with my Wi-Fi access point?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1814148</string>
+				<key>title</key>
+				<string>Does the Withings body scale stay connected to my Wi-Fi network around the clock?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5639941</string>
+				<key>title</key>
+				<string>Does the scale work even when my Wi-Fi network is off?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3898421</string>
+				<key>title</key>
+				<string>Can I use my Withings scale on a carpeted floor and still get an accurate reading?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>328262</string>
+				<key>title</key>
+				<string>Can I change the Withings scale's units of measure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2471660</string>
+				<key>title</key>
+				<string>Is there a weight limit for the Withings body scale?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Installation and technical questions</string>
+	</dict>
+</array>
+</plist>

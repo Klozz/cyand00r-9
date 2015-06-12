@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HyResult</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+	    <div class="row">
+		    <div class=".col-md-12">
+		    	<h1>HyResult</h1>
+		    	<h4>Test effectué entre le [BEGIN_DATE] et le [END_DATE]</h4>
+	    	</div>
+	    </div>
+	    <div class="container">
+		    
+		    
+			<div class="row rows">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles"><div class="rectangle"></div><h4>Profil</h4></div>
+				<div class="col-md-10 col-xs-10 col-sm-10 labels"><p>NOM, PRÉNOM</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-10 col-xs-10 col-sm-10 values"><p>[NAME], [FIRST_NAME]</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 labels"><p>SEXE</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 labels"><p>AGE</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 labels"><p>TAILLE</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 labels"><p>POIDS</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 labels"><p>I.M.C.</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 values"><p>[GENDER]</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 values"><p>[OLD]</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 values"><p>[HEIGHT]</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 values"><p>[WEIGHT]</p></div>
+				<div class="col-md-2 col-xs-2 col-sm-2 values"><p>[IMC]</p></div>
+			</div>
+			
+			<div class="row rows">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles"><div class="rectangle"></div><h4>Résultats</h4></div>
+				<div class="col-md-3 col-xs-3 col-sm-3 labels"><p>SYSTOL (mmHg)</p></div>
+				<div class="col-md-3 col-xs-3 col-sm-3 labels"><p>DIASTOL (mmHg)</p></div>
+				<div class="col-md-4 col-xs-4 col-sm-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-3 col-xs-3 col-sm-3 mainValues"><p>[SYSTOL]</p></div>
+				<div class="col-md-3 col-xs-3 col-sm-3 mainValues"><p>[DIASTOL]</p></div>
+				<div class="col-md-4 col-xs-4 col-sm-4"></div>
+			</div> 
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-3 col-xs-3 col-sm-3"><div class="gradientSlider"></div><div class="pointer1" style="left:[SYS POSITION]%"></div></div>
+				<div class="col-md-3 col-xs-3 col-sm-3"><div class="gradientSlider"></div><div class="pointer2" style="left:[DIA POSITION]%"></div></div>
+				<div class="col-md-4 col-xs-4 col-sm-4"></div>
+			</div>
+			
+			<div class="row rows [DESCRIPTION STATE]">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles">
+					<span class="hmglyph HMIcons_warning"></span>
+					<span class="hmglyph HMIcons_ok"></span>
+				</div>
+				<div class="col-md-10 col-xs-10 col-sm-10"><p>[DESCRIPTION TITLE]</p></div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-xs-2 col-sm-2"></div>
+				<div class="col-md-10 col-xs-10 col-sm-10"><p>[DESCRIPTION TEXT]</p></div>
+			</div>
+			
+			<div class="row rows">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles"><div class="rectangle"></div><h4>Période</h4></div>
+				<div class="col-md-10 col-xs-10 col-sm-10">
+					<h4>Test effectué entre le [BEGIN_DATE] et le [END_DATE].</h4>
+					<p>[INFO MEASURES]</p>
+				</div>
+			</div>
+			
+			<div class="row rows paging">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles"><div class="rectangle"></div><h4>Questionnaire</h4></div>
+				<div class="col-md-10 col-xs-10 col-sm-10">
+					<h4>Le patient déclare:</h4>
+					<p>[SURVEY_RESPONSES]
+					</p>
+				</div>
+			</div>
+			
+			<div class="row rows">
+				<div class="col-md-2 col-xs-2 col-sm-2 titles"><div class="rectangle"></div><h4>Détail</h4></div>
+				<div class="col-md-10 col-xs-10 col-sm-10">
+					<h4>Date, Heures des mesures, Systol/Diastol:</h4>
+					<p>
+						[MEASURES_LISTING]
+					</p>
+				</div>
+			</div>
+			
+			<div class="row rows footer">
+				<div class="liner"></div>
+				<div class="col-md-4 col-xs-4 col-sm-4">
+					<p>[DETAILS_ABOUT_1]</p>
+				</div>
+				<div class="col-md-4 col-xs-4 col-sm-4">
+					<p>[DETAILS_ABOUT_2]</p>
+				</div>
+				<div class="col-md-4 col-xs-4 col-sm-4">
+					<p>[DETAILS_ABOUT_3]</p>
+				</div>
+			</div>
+			
+	    </div>
+    </body>
+</html>

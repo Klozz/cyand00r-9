@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>9486184</string>
+				<key>title</key>
+				<string>What does the Wireless Scale measure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2120580</string>
+				<key>title</key>
+				<string>What is the Position Control™ feature?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8339843</string>
+				<key>title</key>
+				<string>What is the Wireless Scale's weight limit?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4166658</string>
+				<key>title</key>
+				<string>Can I use the Wireless Scale if I have a pacemaker?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5126773</string>
+				<key>title</key>
+				<string>What weight units does the Wireless Scale work with?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4139329</string>
+				<key>title</key>
+				<string>How do I upload my readings to the app?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5256388</string>
+				<key>title</key>
+				<string>Can the Wireless Scale be kept up-to-date with new software?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>About the scale</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>2058205</string>
+				<key>title</key>
+				<string>What device or software do I need to use the Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>Do I need a Wi-Fi access point to use the Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9690693</string>
+				<key>title</key>
+				<string>Should I worry about my computer compatibility with the scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9634923</string>
+				<key>title</key>
+				<string>How do I install the Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6622296</string>
+				<key>title</key>
+				<string>What if I need help to install the Wireless scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3878481</string>
+				<key>title</key>
+				<string>Can I use the Wireless Scale as a regular scale, without wireless connectivity?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1312468</string>
+				<key>title</key>
+				<string>Will the Wireless Scale works with an Android smartphone or tablet?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Set up and compatibility</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>1903123</string>
+				<key>title</key>
+				<string>What is the app to be used with the Wireless Scale? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>Do I need to pay a fee to download the app?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4213209</string>
+				<key>title</key>
+				<string>Can I try the app before purchasing the Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9396141</string>
+				<key>title</key>
+				<string>How will the app help me reach my weight goal?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7353101</string>
+				<key>title</key>
+				<string>Is the Wireless Scale compatible with other apps or services?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3759472</string>
+				<key>title</key>
+				<string>Will my weight data be lost if my iPhone is stolen or if I upgrade to a new model?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>About the app</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>8244088</string>
+				<key>title</key>
+				<string>How many users can weigh on the Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6919949</string>
+				<key>title</key>
+				<string>How do I set up a new user on the scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>821913</string>
+				<key>title</key>
+				<string>Can a child use Wireless Scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6978875</string>
+				<key>title</key>
+				<string>What is the "automatic recognition" feature?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6108166</string>
+				<key>title</key>
+				<string>What if two users weigh approximately the same?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4742114</string>
+				<key>title</key>
+				<string>Can I hide my readings from other users of my scale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4276080</string>
+				<key>title</key>
+				<string>Can I invite a friend or visitor to try the scale?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Multi-user set up</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>6646698</string>
+				<key>title</key>
+				<string>Where will my weight data be stored?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5242158</string>
+				<key>title</key>
+				<string>Can I also access my weight data from my computer?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>401230</string>
+				<key>title</key>
+				<string>How can I share my weight data with others?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4096386</string>
+				<key>title</key>
+				<string>What if I don't want to share my weight data?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1830958</string>
+				<key>title</key>
+				<string>Can I retrieve my weight data if I want to stop using Withings services?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Data, sharing, and privacy</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>6245032</string>
+				<key>title</key>
+				<string>How do I keep the Wireless Scale clean?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5802607</string>
+				<key>title</key>
+				<string>Can I use the Wireless Scale in my bathroom?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>731470</string>
+				<key>title</key>
+				<string>How long do the batteries last?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2915046</string>
+				<key>title</key>
+				<string>Can I take the Wireless Scale with me on a trip?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Care and maintenance</string>
+	</dict>
+</array>
+</plist>

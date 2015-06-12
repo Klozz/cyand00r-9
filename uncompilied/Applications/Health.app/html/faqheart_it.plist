@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>Che cos'è la tensione?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>Cosa significa tensione sistolica e diastolica?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>Cos’è una pressione normale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>I valori osservati non corrispondono alla normale, che cosa fare ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Tensione</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>Cos’è l’ipertensione?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>Quali sono le cause più frequenti dell’ipertensione?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>Come posso fare per diminuire la mia tensione?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Ipertensione</string>
+	</dict>
+</array>
+</plist>

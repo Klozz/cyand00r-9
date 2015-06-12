@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>3743831</string>
+				<key>title</key>
+				<string>Quelles mesures propose la balance WS-30 ? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6881946</string>
+				<key>title</key>
+				<string>Qu'est-ce que le Position Control™ ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7801475</string>
+				<key>title</key>
+				<string>Quelle est le poids maximum admis par la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8805161</string>
+				<key>title</key>
+				<string>Puis-je utiliser la balance WS-30 si je porte un pacemaker ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>221569</string>
+				<key>title</key>
+				<string>Quelles sont les unités de poids proposées par la balance ? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6886017</string>
+				<key>title</key>
+				<string>Que dois-je faire pour transférer mes mesures vers l'application ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7895885</string>
+				<key>title</key>
+				<string>La balance peut-elle être mise à jour avec un nouveau logiciel ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>A propos de la balance</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>1252545</string>
+				<key>title</key>
+				<string>Quels sont les équipements et logiciels nécessaires pour utiliser la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>Ai-je besoin d'un point d'accès Wi-Fi pour utiliser la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7172767</string>
+				<key>title</key>
+				<string>Dois-je me préoccuper de la compatibilité de mon ordinateur avec la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5410486</string>
+				<key>title</key>
+				<string>Comment installer la balance WS-30 ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8990739</string>
+				<key>title</key>
+				<string>Où puis-je trouver de l'aide pour installer ma balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6222619</string>
+				<key>title</key>
+				<string>Est-il possible d'utiliser la balance comme un pèse-personne ordinaire, sans faire usage de sa connectivité ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6875925</string>
+				<key>title</key>
+				<string>La balance fonctionne t-elle avec un smartphone ou une tablette Android ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Installation et compatibilité</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>1903123</string>
+				<key>title</key>
+				<string>Quelle application utiliser avec la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>Dois-je payer un supplément pour obtenir l'application ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4213209</string>
+				<key>title</key>
+				<string>Puis-je essayer l'application avant d'acheter la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9396141</string>
+				<key>title</key>
+				<string>De quel façon l'application m'aide t-elle à atteindre mon objectif de poid ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7353101</string>
+				<key>title</key>
+				<string>La balance est-elle compatible avec d'autres applis ou services ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3759472</string>
+				<key>title</key>
+				<string>Mes données de poids seront-elles perdues si l'on me vole mon iPhone ou que je change de téléphone ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>A propos de l'application</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>3096431</string>
+				<key>title</key>
+				<string>Combien d'utilisateurs différents peuvent se peser sur ma balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9894894</string>
+				<key>title</key>
+				<string>Comment ajouter un nouvel utilisateur sur ma balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5572784</string>
+				<key>title</key>
+				<string>Un enfant peut-il se peser sur la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3925195</string>
+				<key>title</key>
+				<string>En quoi consiste la fonction de «reconnaissance automatique» ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4757171</string>
+				<key>title</key>
+				<string>Que se passe t-il si plusieurs utilisateurs ont un poids similaire ? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8110989</string>
+				<key>title</key>
+				<string>Puis-je protéger mes mesures de la vue des autres utilisateurs de la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5218812</string>
+				<key>title</key>
+				<string>Puis-je proposer à un ami ou visiteur de se peser sur ma balance ? </string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Usage familial</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>7831519</string>
+				<key>title</key>
+				<string>Où mes données de poids seront-elles stockées ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>775067</string>
+				<key>title</key>
+				<string>Puis-je également accèder à mes données depuis mon ordinateur ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6677627</string>
+				<key>title</key>
+				<string>Comment puis-je partager mes données de poids avec d'autres personnes ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8934356</string>
+				<key>title</key>
+				<string>Je préfère ne pas partager mes données. Est-ce possible ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3089403</string>
+				<key>title</key>
+				<string>Puis-je récupérer toutes mes données si j'arrête d'utiliser les services Withings ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Données et confidentialité</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>4426559</string>
+				<key>title</key>
+				<string>Comment dois-je nettoyer la balance WS-30 ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9770685</string>
+				<key>title</key>
+				<string>Puis-je utiliser la balance WS-30 dans ma salle de bain ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5223016</string>
+				<key>title</key>
+				<string>Quelle est la durée de vie des piles ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7609291</string>
+				<key>title</key>
+				<string>Puis-je voyager avec ma balance ? </string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Entretien et maintenance</string>
+	</dict>
+</array>
+</plist>

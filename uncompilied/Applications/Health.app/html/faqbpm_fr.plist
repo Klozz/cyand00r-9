@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>precision</string>
+				<key>title</key>
+				<string>Quelle est la précision du tensiomètre Withings ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>prendretension</string>
+				<key>title</key>
+				<string>Comment bien prendre ma tension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>quelmoment</string>
+				<key>title</key>
+				<string>A quel moment prendre ma tension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>deroulement</string>
+				<key>title</key>
+				<string>Comment se déroule la prise de tension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpreter</string>
+				<key>title</key>
+				<string>Comment interpréter mes résultats ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>partage</string>
+				<key>title</key>
+				<string>Comment partager mes données ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>accesligne</string>
+				<key>title</key>
+				<string>Comment accéder à mes données en ligne ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Le tensiomètre Withings</string>
+	</dict>
+</array>
+</plist>

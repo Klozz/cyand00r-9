@@ -9,7 +9,8 @@
     chmod 755 -R /Applications/Tips.app
     chmod 755 -R /Applications/Themes.app
     chmod 755 -R /Applications/Radio.app
-    chmod 755 -R /Applications/HeartRate.app
+    chmod 755 -R /Applications/Health.app
+    chmod 775 -R /Applications/iCloud.app
     chmod 755 -R /Applications/CAppStore.app
     chmod 755 /Library/MobileSubstrate/DynamicLibraries/BurstMode.dylib
     chmod 755 /Library/MobileSubstrate/DynamicLibraries/CameraTweak2.dylib
@@ -57,8 +58,9 @@
     chown root.admin -R /Applications/Tips.app
     chown root.admin -R /Applications/Themes.app
     chown root.admin -R /Applications/Radio.app
-    chown root.admin -R /Applications/HeartRate.app
+    chown root.admin -R /Applications/Health.app
     chown root.admin -R /Applications/CAppStore.app
+    chown root.admin -R /Applications/iCloud.app
     chown root.admin -R /Applications/MusicApp.app
         echo "____________"
         sleep 3
@@ -112,6 +114,9 @@
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AFVideo.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CoverFlowSwitcher3d.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/GridSwitcher.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ShowCase.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/VideoPane.dylib
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.dylib
 
     #Plist MobileSubstrate Files------------------------------------------------------------------------
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/Centrex.plist
@@ -162,6 +167,9 @@
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AFVideo.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/CoverFlowSwitcher.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/GridSwitcher.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ShowCase.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/VideoPane.plist
+    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.plist
 
     #PreferenceBundles------------------------------------------------------------------------
     chown mobile.staff /Library/PreferenceBundles/BlurEnablerSettings.bundle
@@ -176,7 +184,7 @@
     #chown root.wheel /Library/PreferenceBundles/CouriaPreferences.bundle
     #chown root.wheel /Library/PreferenceBundles/DataLogoSwitcher.bundle
     chown root.wheel /Library/PreferenceBundles/BatterySaver.bundle
-    chown root.wheel /Library/PreferenceBundles/Betrfoldrs.bundle
+    #chown root.wheel /Library/PreferenceBundles/Betrfoldrs.bundle
     #chown root.wheel /Library/PreferenceBundles/CCSettingsPreferences.bundle
     chown mobile.staff /Library/PreferenceBundles/BlurEnablerSettings.bundle
     chown mobile.staff /Library/PreferenceBundles/3DSwitcher.bundle.bundle

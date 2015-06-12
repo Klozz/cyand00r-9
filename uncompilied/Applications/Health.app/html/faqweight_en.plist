@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>4281127</string>
+				<key>title</key>
+				<string>Why follow the evolution of your weight over time?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7903857</string>
+				<key>title</key>
+				<string>What is a normal weight?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>902641</string>
+				<key>title</key>
+				<string>What is the body mass index (BMI)?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4607855</string>
+				<key>title</key>
+				<string>Why is monitoring weight not enough?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2626510</string>
+				<key>title</key>
+				<string>Why control your fat mass?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9024110</string>
+				<key>title</key>
+				<string>Why control your lean mass?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3612230</string>
+				<key>title</key>
+				<string>Find out more about body composition analysis and fat mass measurement</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9406841</string>
+				<key>title</key>
+				<string>What is a normal body composition?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>157817</string>
+				<key>title</key>
+				<string>At what time of the day should I weigh myself?  And how many times?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5721364</string>
+				<key>title</key>
+				<string>How do I determine my weight accurately?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1016665</string>
+				<key>title</key>
+				<string>Why not display the percentage of water in the body?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1475589</string>
+				<key>title</key>
+				<string>What is the yoyo effect? How can I avoid it?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Balance in the long term</string>
+	</dict>
+</array>
+</plist>

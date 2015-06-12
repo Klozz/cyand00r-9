@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/1</string>
+				<key>title</key>
+				<string>Page 1</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/2</string>
+				<key>title</key>
+				<string>Page 2</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/3</string>
+				<key>title</key>
+				<string>Page 3</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/4</string>
+				<key>title</key>
+				<string>Page 4</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/5</string>
+				<key>title</key>
+				<string>Page 5</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Quickstart</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/tension</string>
+				<key>title</key>
+				<string>What is blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/sysdia</string>
+				<key>title</key>
+				<string>What do systolic and diastolic mean ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpretation + /quickstart/interpretation.html</string>
+				<key>title</key>
+				<string>What are the recommended values?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/anormal</string>
+				<key>title</key>
+				<string>My results appear to be abnormal - what should I do?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Blood pressure</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/hypertension</string>
+				<key>title</key>
+				<string>What is hypertension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/causes</string>
+				<key>title</key>
+				<string>What are the most frequent causes of hypertension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/diminuer</string>
+				<key>title</key>
+				<string>How can I lower my blood pressure?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hypertension</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/precision</string>
+				<key>title</key>
+				<string>How accurate is the Withings Blood Pressure Monitor ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/automesure</string>
+				<key>title</key>
+				<string>What is self-measurement ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/autoconseil</string>
+				<key>title</key>
+				<string>Is self measurement advisable for everyone?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/prendretension</string>
+				<key>title</key>
+				<string>How should I take my blood pressure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/quelmoment</string>
+				<key>title</key>
+				<string>When should I take my blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/deroulement</string>
+				<key>title</key>
+				<string>How is the test performed ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpreter</string>
+				<key>title</key>
+				<string>How should I interpret my results?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/partage</string>
+				<key>title</key>
+				<string>How can I share my data ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/accesligne</string>
+				<key>title</key>
+				<string>How can I consult my data on line?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/symboles</string>
+				<key>title</key>
+				<string>What do the symbols on the graphs mean ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Withings Blood Pressure Monitor</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>branchez</string>
+				<key>title</key>
+				<string>Plug in your monitor</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Branchez</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>What is blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>What do systolic and diastolic mean ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>What are the recommended values?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>My results appear to be abnormal - what should I do?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Blood pressure</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>What is hypertension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>What are the most frequent causes of hypertension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>How can I lower my blood pressure?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hypertension</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>precision</string>
+				<key>title</key>
+				<string>How accurate is the Withings Blood Pressure Monitor ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>automesure</string>
+				<key>title</key>
+				<string>What is self-measurement ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>autoconseil</string>
+				<key>title</key>
+				<string>Is self measurement advisable for everyone?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>prendretension</string>
+				<key>title</key>
+				<string>How should I take my blood pressure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>quelmoment</string>
+				<key>title</key>
+				<string>When should I take my blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>deroulement</string>
+				<key>title</key>
+				<string>How is the test performed ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpreter</string>
+				<key>title</key>
+				<string>How should I interpret my results?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>partage</string>
+				<key>title</key>
+				<string>How can I share my data ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>accesligne</string>
+				<key>title</key>
+				<string>How can I consult my data on line?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>symboles</string>
+				<key>title</key>
+				<string>What do the symbols on the graphs mean ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Withings Blood Pressure Monitor</string>
+	</dict>
+</array>
+</plist>

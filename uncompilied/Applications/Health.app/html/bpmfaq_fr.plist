@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/1</string>
+				<key>title</key>
+				<string>Page 1</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/2</string>
+				<key>title</key>
+				<string>Page 2</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/3</string>
+				<key>title</key>
+				<string>Page 3</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/4</string>
+				<key>title</key>
+				<string>Page 4</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/5</string>
+				<key>title</key>
+				<string>Page 5</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Démarrage rapide</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/tension</string>
+				<key>title</key>
+				<string>Qu'est-ce que la tension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/sysdia</string>
+				<key>title</key>
+				<string>Que signifient tension systolique et diastolique?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpretation + /quickstart/interpretation.html</string>
+				<key>title</key>
+				<string>Qu'est-ce qu'une tension normale?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/anormal</string>
+				<key>title</key>
+				<string>Les valeurs observées ne correspondent pas à la normale, que faire?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Tension</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/hypertension</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'hypertension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/causes</string>
+				<key>title</key>
+				<string>Quelles sont les causes fréquentes d'hypertension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/diminuer</string>
+				<key>title</key>
+				<string>Comment puis-je faire baisser ma tension?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hypertension</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/precision</string>
+				<key>title</key>
+				<string>Quelle est la précision du tensiomètre Withings?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/automesure</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'automesure?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/autoconseil</string>
+				<key>title</key>
+				<string>L'automesure est-elle conseillée à tout le monde?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/prendretension</string>
+				<key>title</key>
+				<string>Comment bien prendre ma tension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/quelmoment</string>
+				<key>title</key>
+				<string>A quel moment prendre ma tension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/deroulement</string>
+				<key>title</key>
+				<string>Comment se déroule la prise de tension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpreter</string>
+				<key>title</key>
+				<string>Comment interpréter mes résultats?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/partage</string>
+				<key>title</key>
+				<string>Comment partager mes données?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/accesligne</string>
+				<key>title</key>
+				<string>Comment accéder à mes données en ligne?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/symboles</string>
+				<key>title</key>
+				<string>Que signifient les symboles sur mes courbes?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Le tensiomètre Withings</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>branchez</string>
+				<key>title</key>
+				<string>Branchez votre tensiomètre</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Branchez</string>
+	</dict>
+</array>
+</plist>

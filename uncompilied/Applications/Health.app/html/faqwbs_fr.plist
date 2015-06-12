@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>3095683</string>
+				<key>title</key>
+				<string>Dois-je payer un abonnement pour utiliser la balance Withings ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7830717</string>
+				<key>title</key>
+				<string>Est-ce que je peux utiliser la balance Withings si je n’ai pas d’iPhone ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>297930</string>
+				<key>title</key>
+				<string>Plusieurs personnes peuvent-elles utiliser la même balance Withings ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3875835</string>
+				<key>title</key>
+				<string>Nous sommes plusieurs à utiliser la même balance Withings. Puis-je quand même garder mes mesures pour moi seul ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7286935</string>
+				<key>title</key>
+				<string>Si mes mesures sont en ligne, est-ce que n’importe qui peut y avoir accès?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>37865</string>
+				<key>title</key>
+				<string>Suis-je obligé de tweeter mon poids?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9461852</string>
+				<key>title</key>
+				<string>De quoi ai-je besoin pour utiliser ma balance Withings ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Utilisation de la balance</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>3255988</string>
+				<key>title</key>
+				<string>Je ne suis pas vraiment technophile. Est-ce que l’installation est facile ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>576567576</string>
+				<key>title</key>
+				<string>Comment démarrer l'installation de la balance ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>4599480</string>
+				<key>title</key>
+				<string>Comment savoir si la balance Withings est compatible avec mon point d’accès Wi-Fi ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7750952</string>
+				<key>title</key>
+				<string>Est-ce que la balance Withings est connectée en permanence à mon réseau Wi-Fi ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2836567</string>
+				<key>title</key>
+				<string>Est-ce que la balance fonctionne si mon point d’accès Wi-Fi est coupé ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1915417</string>
+				<key>title</key>
+				<string>Puis-je utiliser ma balance Withings sur de la moquette sans fausser la pesée?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3936765</string>
+				<key>title</key>
+				<string>Puis-je changer les unités de la balance Withings ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>8469097</string>
+				<key>title</key>
+				<string>Quelle est la limite de poids de la balance Withings ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Installation et questions techniques</string>
+	</dict>
+</array>
+</plist>
