@@ -5,7 +5,6 @@
     echo "Corrigiendo permisos... (chmod)"
     chmod 755 -R /Applications/AppAddict.app
     chmod 755 -R /Applications/MusicApp.app
-    chmod 755 -R /Applications/News.app
     chmod 755 -R /Applications/Tips.app
     chmod 755 -R /Applications/Themes.app
     chmod 755 -R /Applications/Radio.app
@@ -53,7 +52,6 @@
     echo "____________"
     sleep 3
     echo "Asignando permisos de usuarios... (chown)"
-    chown root.admin -R /Applications/News.app
     chown root.admin -R /Applications/AppAddict.app
     chown root.admin -R /Applications/Tips.app
     chown root.admin -R /Applications/Themes.app
@@ -106,7 +104,7 @@
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DoodleMessage.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DataLogoSwitcher.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ColorProfiles.dylib
-    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.dylib
+    #chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AlbumShot.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ClassicFolders.dylib
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.dylib
@@ -159,7 +157,7 @@
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DoodleMessage.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/DataLogoSwitcher.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ColorProfiles.plist
-    chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.plist
+    #chown root.wheel /Library/MobileSubstrate/DynamicLibraries/HideNewsstandiOS71x.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/AlbumShot.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/ClassicFolders.plist
     chown root.wheel /Library/MobileSubstrate/DynamicLibraries/SearchLoader.plist
@@ -229,13 +227,14 @@
     chown mobile.mobile /var/mobile/Library/Preferences/com.iphoneclan.slowcamera.plist
     chown root.mobile /var/mobile/Library/Preferences/com.plipala.ccsettings.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.BurstMode.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/com.PS.BurstMode.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.actHack.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.IBGraphicsHack.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.SlalomMod.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.StillCaptureEnabler2.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.PS.VideoZoomMod.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.rpetrich.colorprofiles.plist
-    chown mobile.mobile /var/mobile/Library/Preferences/com.saurik.WinterBoard.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/jp.tom-go.GridSwitcher.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.uknl.betrfoldrs.plist
     chown mobile.mobile /var/mobile/Library/Preferences/de.2peaches.favoritecontacts.plist
     chown mobile.mobile /var/mobile/Library/Preferences/com.freemanrepo.pushnotifier.plist
@@ -245,7 +244,7 @@
     chown mobile.mobile /var/mobile/Library/Preferences/com.jerryen.AppHide.plist
     chown mobile.mobile /var/mobile/Library/Preferences/kr.slak.iphone4parallax.plist
     chown mobile.mobile /var/mobile/Library/Preferences/org.thebigboss.CentrexSettings.plist
-    chown mobile.mobile /var/mobile/Library/Preferences/org.coolstar.classicfolders.plist
+    chown mobile.mobile /var/mobile/Library/Preferences/org.coolstar.classicdock.plist
     chown mobile.mobile /var/mobile/Library/Preferences/org.coolstar.coverflowswitcher.plist
     chown mobile.mobile /var/mobile/Library/LibHide/hidden.plist
     chmod 644 /var/mobile/Library/Preferences/com.jerryen.AppHide.plist
@@ -358,6 +357,8 @@ rm -rf /Library/PanoModUI
 
     uicache
     uicache
+    
+    rm -rf /var/mobile/Library/Caches/com.apple.springboard.sharedimagecache/Persistent
 
     su mobile -c uicache
 

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>mode</string>
+			<key>label</key>
+			<string>Mode</string>
+			<key>validTitles</key>
+			<array>
+				<string>Classic (6.x Style)</string>
+				<string>Modern (Blurred with 6.x Shape)</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>key</key>
+			<string>darkenBackground</string>
+			<key>label</key>
+			<string>Darken BG behind dock</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>key</key>
+			<string>reflectIcons</string>
+			<key>label</key>
+			<string>Reflect Icons</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>key</key>
+			<string>blurReflections</string>
+			<key>label</key>
+			<string>Blur Icon Reflections</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>key</key>
+			<string>runningIndicators</string>
+			<key>label</key>
+			<string>Display Running Indicators</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>org.coolstar.classicdock</string>
+			<key>key</key>
+			<string>bounceLaunch</string>
+			<key>label</key>
+			<string>Bounce Icon On Launch</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apply Changes</string>
+			<key>footerText</key>
+			<string>Please Respring to Apply Changes</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>CoolStar (@coolstarorg)</string>
+			<key>action</key>
+			<string>coolstarTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Jack (@sharedRoutine)</string>
+			<key>action</key>
+			<string>sharedRoutineTwitter:</string>
+			<key>icon</key>
+			<string>/Applications/Preferences.app/Twitter.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Classic Dock</string>
+</dict>
+</plist>

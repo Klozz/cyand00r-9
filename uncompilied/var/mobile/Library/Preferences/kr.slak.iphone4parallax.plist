@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>UIiPhone4BlurEnabled</key>
-	<false/>
-	<key>UIiPhone4ParallaxEnabled</key>
 	<true/>
+	<key>UIiPhone4ParallaxEnabled</key>
+	<false/>
 </dict>
 </plist>

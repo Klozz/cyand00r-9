@@ -6,7 +6,7 @@
 	<dict>
 		<key>AKIconDataConsumer-defaults.plist</key>
 		<data>
-		p0c5QSGBdcjFt6AhZNlDsN1zyvA=
+		NNzs5slKDxQVFBzfPuVjYz+MEzg=
 		</data>
 		<key>AppAddict.entitlements</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		jk9KMnqKcQrwuKf5ShtekWQkqHc=
+		QwODu14Qtj3l/i0eHZkrtDCqCEo=
 		</data>
 		<key>Countly.momd/Countly.mom</key>
 		<data>
@@ -76,9 +76,56 @@
 		<data>
 		QTQWV4vhJ/JV3tXEWeHn0mCdnE4=
 		</data>
+		<key>Frameworks/AddictKit.framework/AKIconDataConsumer-defaults.plist</key>
+		<data>
+		UP4KJ4waTeldxAzIFhaD6PR/w6o=
+		</data>
+		<key>Frameworks/AddictKit.framework/AddictKit</key>
+		<data>
+		UcZ+TLvLW+Vl9MvCW46rkOD0XDg=
+		</data>
+		<key>Frameworks/AddictKit.framework/Assets.car</key>
+		<data>
+		HeT1ZkOpOP4m58263EK0CWwnUvo=
+		</data>
+		<key>Frameworks/AddictKit.framework/Info.plist</key>
+		<data>
+		0mO3yA9QL5jZBnTH2Jgm2vCmBJc=
+		</data>
+		<key>Frameworks/AddictKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ugSvVLANaa00gGbD7DDHxQSLCPM=
+		</data>
+		<key>Frameworks/AddictKit.framework/ar.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h33TWUZWQKZd/Zq3zGwh5pT5j9k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AddictKit.framework/en.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xblEoK7LCRdplLOB93ZnpWk2krU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AddictKit.framework/ru.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H8c/78yS+oWYOigjGr2/MaR7M8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Info.plist</key>
 		<data>
-		6mCsc18O9hqey/1ptQigPZ/B2zw=
+		uESx5QEViWSMBlCeXrxDr4KS+RU=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -122,11 +169,11 @@
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/AKIconDataConsumer-defaults.plist</key>
 		<data>
-		p0c5QSGBdcjFt6AhZNlDsN1zyvA=
+		NNzs5slKDxQVFBzfPuVjYz+MEzg=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/Info.plist</key>
 		<data>
-		LIYviCw5/tJb5csXHdMu2h4obNY=
+		Bmj8fV4dKxwX+qq9ZdPGCb4p+sY=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/Info.plist</key>
 		<data>
@@ -134,20 +181,146 @@
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib</key>
 		<data>
-		o7zunAplfX0P6lAxwPFYpARrxyI=
+		DUXfeGSSCApvCcGGQmtmMoZFu9A=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib</key>
 		<data>
-		iRQD7nnAbJIAGHkgx4uWLY2zJhI=
+		UHvWhBYuloyT8P3cBkaUFWIQqdg=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/_CodeSignature/CodeResources</key>
 		<data>
-		0r/tun7UGW4WjdgemtJAy8JNvv8=
+		Y1YMZSjD8sLdUP8Fw1OzFGzEkn0=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/org.appaddict.ios.AppAddict-Today</key>
 		<data>
-		TOtT8CkxSTjUHFKKgDB2ciqcp8c=
+		Y/tsV/nfdKSbCKmTnxSdxSlBkI4=
 		</data>
+		<key>Quincy.bundle/de.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IwRhxlHiWJx6vkhgGomYLnm4SBk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/en.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			elLqMgvlAVtnKiyehcJEJFqJlws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/es.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qgh/I42YYRUnjmWnWTUEYAW0UPs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/fr.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vi5wjQHmumiY5Ix/p3e2TEQ4+c4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/hr.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sJRM6q2rjPU5WQ8RhHhY9NA3eWc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/hu.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opwC6S3iZm56x7q1cSQSPvWwcDg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/it.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6S+5c/7V6atQMNbQim7GBNV6Tkw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ja.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vMp1p9Np6/aSmdJ60sEDnEX0TUM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/nl.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			boAYlUwZLUUgtOmXUUyvSjpDN8w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/pt-PT.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bw2zWCwX7PH4Zk7esQKfrjVigb8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/pt.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u7nsn8a5wcf/ypSxDHYze+rFB2o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ro.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5PlgaVhQ0USld4xK8DJxWkdarrM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ru.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ByThepyoFZ3lQrLNUueyI1u9rkc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/zh-Hans.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G0+kK7xdBWdIxEwBoly/2nHAbS0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Radial-.png</key>
 		<data>
 		RRvCQYj7SVW4t9xNQQ50GLMizzc=
@@ -244,7 +417,7 @@
 		</dict>
 		<key>ads</key>
 		<data>
-		+5ca2XKsKEYM1lRFTSYx92v0vjI=
+		n8UKO/zNXIRbcJveafLF/cP/Snk=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -264,10 +437,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>cell.nib</key>
-		<data>
-		+UBoZDGx8Vrhp6Owq9i2m23hV/c=
-		</data>
 		<key>dc.plist</key>
 		<data>
 		KJPpBaB1FW4wzs6IitUmwd3AstM=
@@ -472,11 +641,11 @@
 		</dict>
 		<key>upload.storyboardc/CAPreparingForUploadViewController.nib</key>
 		<data>
-		9ato7AIi/VJ11qjcsHi7ZxDFKsA=
+		b30GAPjRSWlHzwPD77qIDTPFa08=
 		</data>
 		<key>upload.storyboardc/FPa-Yq-c00-view-oRG-2c-nyc.nib</key>
 		<data>
-		HPUTYpqHw5VwSzIBvti0CfvmDQs=
+		tyYDoOtn6qvHkxrjTkgKD8BU1T4=
 		</data>
 		<key>upload.storyboardc/Info.plist</key>
 		<data>
@@ -484,7 +653,7 @@
 		</data>
 		<key>upload2.storyboardc/CAPreparingForUploadViewController.nib</key>
 		<data>
-		+Pzp0MnfZPkqFtsQHym4QtoS7lM=
+		iT2ougBrX2kTK1FKxD88vbD1618=
 		</data>
 		<key>upload2.storyboardc/Info.plist</key>
 		<data>
@@ -492,14 +661,14 @@
 		</data>
 		<key>upload2.storyboardc/eYj-D6-M93-view-LCM-Di-lce.nib</key>
 		<data>
-		Yh3Uzn3YtrxsNIHGL70bCoVbSAg=
+		ATrOhsV4i390m2pw2soj2kaLrvI=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>AKIconDataConsumer-defaults.plist</key>
 		<data>
-		p0c5QSGBdcjFt6AhZNlDsN1zyvA=
+		NNzs5slKDxQVFBzfPuVjYz+MEzg=
 		</data>
 		<key>AppAddict.entitlements</key>
 		<data>
@@ -555,7 +724,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		jk9KMnqKcQrwuKf5ShtekWQkqHc=
+		QwODu14Qtj3l/i0eHZkrtDCqCEo=
 		</data>
 		<key>Countly.momd/Countly.mom</key>
 		<data>
@@ -569,6 +738,53 @@
 		<data>
 		QTQWV4vhJ/JV3tXEWeHn0mCdnE4=
 		</data>
+		<key>Frameworks/AddictKit.framework/AKIconDataConsumer-defaults.plist</key>
+		<data>
+		UP4KJ4waTeldxAzIFhaD6PR/w6o=
+		</data>
+		<key>Frameworks/AddictKit.framework/AddictKit</key>
+		<data>
+		UcZ+TLvLW+Vl9MvCW46rkOD0XDg=
+		</data>
+		<key>Frameworks/AddictKit.framework/Assets.car</key>
+		<data>
+		HeT1ZkOpOP4m58263EK0CWwnUvo=
+		</data>
+		<key>Frameworks/AddictKit.framework/Info.plist</key>
+		<data>
+		0mO3yA9QL5jZBnTH2Jgm2vCmBJc=
+		</data>
+		<key>Frameworks/AddictKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ugSvVLANaa00gGbD7DDHxQSLCPM=
+		</data>
+		<key>Frameworks/AddictKit.framework/ar.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h33TWUZWQKZd/Zq3zGwh5pT5j9k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AddictKit.framework/en.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xblEoK7LCRdplLOB93ZnpWk2krU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/AddictKit.framework/ru.lproj/iTunesStore.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H8c/78yS+oWYOigjGr2/MaR7M8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
 		eqTlFpbHk5HHEHnd6P96U1q0kMo=
@@ -607,11 +823,11 @@
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/AKIconDataConsumer-defaults.plist</key>
 		<data>
-		p0c5QSGBdcjFt6AhZNlDsN1zyvA=
+		NNzs5slKDxQVFBzfPuVjYz+MEzg=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/Info.plist</key>
 		<data>
-		LIYviCw5/tJb5csXHdMu2h4obNY=
+		Bmj8fV4dKxwX+qq9ZdPGCb4p+sY=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/Info.plist</key>
 		<data>
@@ -619,20 +835,146 @@
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/M4Y-Lb-cyx-view-S3S-Oj-5AN.nib</key>
 		<data>
-		o7zunAplfX0P6lAxwPFYpARrxyI=
+		DUXfeGSSCApvCcGGQmtmMoZFu9A=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/MainInterface.storyboardc/UIViewController-M4Y-Lb-cyx.nib</key>
 		<data>
-		iRQD7nnAbJIAGHkgx4uWLY2zJhI=
+		UHvWhBYuloyT8P3cBkaUFWIQqdg=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/_CodeSignature/CodeResources</key>
 		<data>
-		0r/tun7UGW4WjdgemtJAy8JNvv8=
+		Y1YMZSjD8sLdUP8Fw1OzFGzEkn0=
 		</data>
 		<key>PlugIns/org.appaddict.ios.AppAddict-Today.appex/org.appaddict.ios.AppAddict-Today</key>
 		<data>
-		TOtT8CkxSTjUHFKKgDB2ciqcp8c=
+		Y/tsV/nfdKSbCKmTnxSdxSlBkI4=
 		</data>
+		<key>Quincy.bundle/de.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IwRhxlHiWJx6vkhgGomYLnm4SBk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/en.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			elLqMgvlAVtnKiyehcJEJFqJlws=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/es.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Qgh/I42YYRUnjmWnWTUEYAW0UPs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/fr.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vi5wjQHmumiY5Ix/p3e2TEQ4+c4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/hr.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sJRM6q2rjPU5WQ8RhHhY9NA3eWc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/hu.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opwC6S3iZm56x7q1cSQSPvWwcDg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/it.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6S+5c/7V6atQMNbQim7GBNV6Tkw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ja.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vMp1p9Np6/aSmdJ60sEDnEX0TUM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/nl.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			boAYlUwZLUUgtOmXUUyvSjpDN8w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/pt-PT.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bw2zWCwX7PH4Zk7esQKfrjVigb8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/pt.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u7nsn8a5wcf/ypSxDHYze+rFB2o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ro.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5PlgaVhQ0USld4xK8DJxWkdarrM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/ru.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ByThepyoFZ3lQrLNUueyI1u9rkc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Quincy.bundle/zh-Hans.lproj/Quincy.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G0+kK7xdBWdIxEwBoly/2nHAbS0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Radial-.png</key>
 		<data>
 		RRvCQYj7SVW4t9xNQQ50GLMizzc=
@@ -729,7 +1071,7 @@
 		</dict>
 		<key>ads</key>
 		<data>
-		+5ca2XKsKEYM1lRFTSYx92v0vjI=
+		n8UKO/zNXIRbcJveafLF/cP/Snk=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -749,10 +1091,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>cell.nib</key>
-		<data>
-		+UBoZDGx8Vrhp6Owq9i2m23hV/c=
-		</data>
 		<key>dc.plist</key>
 		<data>
 		KJPpBaB1FW4wzs6IitUmwd3AstM=
@@ -957,11 +1295,11 @@
 		</dict>
 		<key>upload.storyboardc/CAPreparingForUploadViewController.nib</key>
 		<data>
-		9ato7AIi/VJ11qjcsHi7ZxDFKsA=
+		b30GAPjRSWlHzwPD77qIDTPFa08=
 		</data>
 		<key>upload.storyboardc/FPa-Yq-c00-view-oRG-2c-nyc.nib</key>
 		<data>
-		HPUTYpqHw5VwSzIBvti0CfvmDQs=
+		tyYDoOtn6qvHkxrjTkgKD8BU1T4=
 		</data>
 		<key>upload.storyboardc/Info.plist</key>
 		<data>
@@ -969,7 +1307,7 @@
 		</data>
 		<key>upload2.storyboardc/CAPreparingForUploadViewController.nib</key>
 		<data>
-		+Pzp0MnfZPkqFtsQHym4QtoS7lM=
+		iT2ougBrX2kTK1FKxD88vbD1618=
 		</data>
 		<key>upload2.storyboardc/Info.plist</key>
 		<data>
@@ -977,7 +1315,7 @@
 		</data>
 		<key>upload2.storyboardc/eYj-D6-M93-view-LCM-Di-lce.nib</key>
 		<data>
-		Yh3Uzn3YtrxsNIHGL70bCoVbSAg=
+		ATrOhsV4i390m2pw2soj2kaLrvI=
 		</data>
 	</dict>
 	<key>rules</key>
