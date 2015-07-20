@@ -1,0 +1,13 @@
+body {
+	background:url(images/background.png) center top fixed repeat;
+	color:black;
+}
+
+.body-padding {
+        padding:2em;
+	font-size:1em;
+}
+
+small {
+	color:#ccf;
+}

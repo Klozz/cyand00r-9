@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>4574385</string>
+				<key>title</key>
+				<string>Pourquoi suivre l'évolution de son poids sur la durée ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6315442</string>
+				<key>title</key>
+				<string>Qu'est-ce que le poids normal ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9761684</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'indice de masse corporel (IMC) ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5058523</string>
+				<key>title</key>
+				<string>Pourquoi le suivi du poids seul ne suffit pas ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>2501891</string>
+				<key>title</key>
+				<string>Pourquoi contrôler sa masse de graisse ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3034218</string>
+				<key>title</key>
+				<string>Pourquoi contrôler sa masse maigre ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6037504</string>
+				<key>title</key>
+				<string>En savoir plus sur l'analyse de la composition corporelle et l'impédancemétrie</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>5367084</string>
+				<key>title</key>
+				<string>Qu'est-ce qu'une composition corporelle normale ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>6317783</string>
+				<key>title</key>
+				<string>A quelle heure de la journée dois-je me peser ? Et à quelle fréquence ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>9626304</string>
+				<key>title</key>
+				<string>Comment déterminer son poids avec précision ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>7023598</string>
+				<key>title</key>
+				<string>Pourquoi ne pas afficher le pourcentage d'eau dans le corps ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1449495</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'effet yoyo ? Comment l'éviter ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>L'équilibre dans la durée</string>
+	</dict>
+</array>
+</plist>

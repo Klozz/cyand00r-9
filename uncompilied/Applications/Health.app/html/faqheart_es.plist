@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>¿Qué es la tensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>¿Qué significan las tensiones sistólica y diastólica?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>¿Cuál es la tensión normal?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>Si los valores observados no son los valores normales, ¿Qué hay que hacer?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Tensión</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>¿Qué es la hipertensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>¿Cuáles son los motivos más frecuentes de la hipertensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>¿Qué puedo hacer para que baje mi tensión?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hipertensión</string>
+	</dict>
+</array>
+</plist>

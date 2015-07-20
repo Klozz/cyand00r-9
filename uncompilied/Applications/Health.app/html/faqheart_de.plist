@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>Blutdruck, was ist das?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>Was versteht man unter systolischem und diastolischem Druck?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>Was ist ein normaler Blutdruck?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>Die Messwerte liegen nicht im Normalbereich, was tun?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Blutdruck</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>Bluthochdruck, was ist das?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>Was sind die häufigsten Ursachen für Bluthochdruck?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>Wie kann man den Blutdruck senken?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Bluthochdruck</string>
+	</dict>
+</array>
+</plist>

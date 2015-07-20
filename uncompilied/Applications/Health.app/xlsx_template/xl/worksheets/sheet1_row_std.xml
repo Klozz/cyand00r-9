@@ -1,0 +1,6 @@
+<row collapsed="false" customFormat="false" customHeight="false" hidden="false" ht="14.3" outlineLevel="0" r="%d">
+<c r="A%d" s="6" t="n"><v>%f</v></c>
+<c r="B%d" s="2" t="n"><v>%d</v></c>
+<c r="C%d" s="2" t="n"><v>%d</v></c>
+<c r="D%d" s="2" t="n"><v>%d</v></c>
+</row>

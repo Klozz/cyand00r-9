@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/1</string>
+				<key>title</key>
+				<string>Page 1</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/2</string>
+				<key>title</key>
+				<string>Page 2</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/3</string>
+				<key>title</key>
+				<string>Page 3</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/4</string>
+				<key>title</key>
+				<string>Page 4</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/quickstart/5</string>
+				<key>title</key>
+				<string>Page 5</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Arranque rápido</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/tension</string>
+				<key>title</key>
+				<string>¿Qué es la tensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/sysdia</string>
+				<key>title</key>
+				<string>¿Qué significan las tensiones sistólica y diastólica?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpretation + /quickstart/interpretation.html</string>
+				<key>title</key>
+				<string>¿Cuál es la tensión normal?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/anormal</string>
+				<key>title</key>
+				<string>Si los valores observados no son los valores normales, ¿Qué hay que hacer?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Tensión</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/hypertension</string>
+				<key>title</key>
+				<string>¿Qué es la hipertensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/causes</string>
+				<key>title</key>
+				<string>¿Cuáles son los motivos más frecuentes de la hipertensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/diminuer</string>
+				<key>title</key>
+				<string>¿Qué puedo hacer para que baje mi tensión?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hipertensión</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>/faq/precision</string>
+				<key>title</key>
+				<string>¿Qué precisión tiene el tensiómetro Withings?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/automesure</string>
+				<key>title</key>
+				<string>¿Qué es la automedición?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/autoconseil</string>
+				<key>title</key>
+				<string>¿Es aconsejable la automedición para todo el mundo?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/prendretension</string>
+				<key>title</key>
+				<string>¿Cómo puedo tomare la tensión correctamente?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/quelmoment</string>
+				<key>title</key>
+				<string>¿En qué momento debo tomarme la tensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/deroulement</string>
+				<key>title</key>
+				<string>¿Cómo se lleva a cabo la operación de tomarse la tensión?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/interpreter</string>
+				<key>title</key>
+				<string>¿Cómo debo interpretar los resultados?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/partage</string>
+				<key>title</key>
+				<string>¿Cómo puedo compartir mis datos?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/accesligne</string>
+				<key>title</key>
+				<string>¿Cómo puedo acceder a mis datos en línea?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>/faq/symboles</string>
+				<key>title</key>
+				<string>¿Qué significan los símbolos que aparecen en mis curvas?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Withings Tensiómetro</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>branchez</string>
+				<key>title</key>
+				<string>Conecta tu tensiómetro</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Conecta</string>
+	</dict>
+</array>
+</plist>

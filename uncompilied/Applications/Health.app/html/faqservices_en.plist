@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>whyRunkeeperDoesntAppear</string>
+				<key>title</key>
+				<string>I just finished an activity on Runkeeper. Why can I not see the updated data on my dashboard?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Runkeeper</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>whyBodyMediaDoesntAppear.html</string>
+				<key>title</key>
+				<string>I just synchronized my BodyMedia armband. Why can I not see the updated data on my dashboard?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>whyCaloriesBurnedDifferent</string>
+				<key>title</key>
+				<string>The "calories burned" value is lower than what appears on my BodyMedia dashboard. Why is that?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>BodyMedia</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>whyZeoDoesntAppear.html</string>
+				<key>title</key>
+				<string>I just synchronized my Zeo headband. Why can I not see the updated data on my dashboard?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Zeo</string>
+	</dict>
+</array>
+</plist>

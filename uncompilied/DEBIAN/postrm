@@ -18,6 +18,8 @@
     cp /etc/hosts.bak /etc/hosts
     cp /private/etc/fstab.bak /private/etc/fstab
     cp /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png.bak /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png
+    cp /System/Library/CoreServices/SpringBoard.app/NewsstandIconEnglish@2x~iphone.png.bak /System/Library/CoreServices/SpringBoard.app/NewsstandIconEnglish@2x~iphone.png
+    cp /System/Library/CoreServices/SpringBoard.app/NewsstandIconInternational@2x~iphone.png.bak /System/Library/CoreServices/SpringBoard.app/NewsstandIconInternational@2x~iphone.png
     cp /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist.bak /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist
     cp /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings.bak /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings
     cp /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings.bak /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings

@@ -24,6 +24,8 @@ else
     cp /etc/hosts /etc/hosts.bak
     cp /private/etc/fstab /private/etc/fstab.bak
     cp /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png /System/Library/CoreServices/SpringBoard.app/IconNewDot@2x.png.bak
+    cp /System/Library/CoreServices/SpringBoard.app/NewsstandIconEnglish@2x~iphone.png /System/Library/CoreServices/SpringBoard.app/NewsstandIconEnglish@2x~iphone.png.bak
+        cp /System/Library/CoreServices/SpringBoard.app/NewsstandIconInternational@2x~iphone.png /System/Library/CoreServices/SpringBoard.app/NewsstandIconInternational@2x~iphone.png.bak
     cp /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist /System/Library/CoreServices/SpringBoard.app/DefaultIconState~iphone.plist.bak
     cp /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings /System/Library/CoreServices/SpringBoard.app/en.lproj/Jibbler.strings.bak
     cp /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings /System/Library/CoreServices/SpringBoard.app/es_MX.lproj/Jibbler.strings.bak

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>activity</string>
+				<key>title</key>
+				<string>Qu'est-ce qu'une activité physique ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>intesity</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'intensité d'une activité physique ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>moderate</string>
+				<key>title</key>
+				<string>Qu'est-ce qu'une activité modérée ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>vigorous</string>
+				<key>title</key>
+				<string>Qu'est ce qu'une activité soutenue ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Définitions</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>quantityActivity</string>
+				<key>title</key>
+				<string>Quelle quantité d'activité physique dois-je accomplir ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>whyActivity</string>
+				<key>title</key>
+				<string>Pourquoi est-il important de maintenir une activité physique régulière ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>consequencesActivity</string>
+				<key>title</key>
+				<string>Quelles sont les conséquences de la sédentarité ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Recommandations</string>
+	</dict>
+</array>
+</plist>

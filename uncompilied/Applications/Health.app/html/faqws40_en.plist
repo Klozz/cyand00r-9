@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>7892336</string>
+				<key>title</key>
+				<string>How to weigh my baby using the baby cradle? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>1754206</string>
+				<key>title</key>
+				<string>How should my kid weigh once he can stand up on his own? </string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>3228318</string>
+				<key>title</key>
+				<string>I want to put a blanket on the cradle, how can I tare its weight? </string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Usage</string>
+	</dict>
+</array>
+</plist>

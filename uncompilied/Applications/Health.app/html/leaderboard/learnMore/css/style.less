@@ -1,0 +1,83 @@
+@import "stylesheet.less";
+
+@hPad: 30px;
+@vPad: 5px;
+
+html, body{
+	background-color: @hshadeL4;
+}
+body{
+	margin-bottom: 80px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	padding: @vPad @hPad 0 @hPad;
+}
+
+h3{
+	color: @app;
+}
+
+p, ul{
+	font-weight: 300;
+	font-size: 1.1em;
+	color: @gray-dark;
+}
+
+img{
+	padding-top: 2*@vPad;
+	padding-bottom: 2*@vPad;
+	width: 100%;
+	height: auto;
+}
+
+.actionbar{
+	margin: @vPad @hPad;
+	.btn-primary {
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+	
+}
+
+.mainactionbar{
+	//margin: @vPad @hPad;
+	border-color: @cshadeL4;
+	border-top: 1px solid @cshadeL4;
+	background-color: rgba(255,255,255,0.9);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	
+	text-align: center;
+	//padding-top: @vPad;
+	//padding-bottom: @vPad;
+	.btn-primary {
+		margin: 2*@vPad auto;
+	}
+}
+
+.badge_description{
+	h3{
+		color: @steps;
+		padding-top: 0px;
+		margin-top: 0;
+	}
+	img{
+		width: 80%;
+		height: auto;
+		left: @hPad;
+	}
+}
+
+table{
+	margin: 10px 30px 10px 30px;
+	//border-bottom:1px #ddd solid;
+	td{
+		border-bottom:1px @cshadeL4 solid;
+		padding: 10px 6px;
+	}
+	td:first-child {
+		width: 100%;
+	}
+}

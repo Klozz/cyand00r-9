@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>activity</string>
+				<key>title</key>
+				<string>What is a physical activity?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>intesity</string>
+				<key>title</key>
+				<string>What is the intensity of a physical activity?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>moderate</string>
+				<key>title</key>
+				<string>What is a moderate activity?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>vigorous</string>
+				<key>title</key>
+				<string>What is a  vigorous activity? </string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Definitions</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>quantityActivity</string>
+				<key>title</key>
+				<string>How much physical activity should I get?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>whyActivity</string>
+				<key>title</key>
+				<string>Why is it important to exercise regularly?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>consequencesActivity</string>
+				<key>title</key>
+				<string>What are the consequences of physical inactivity?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Recommendations</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>What is blood pressure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>What do systolic and diastolic mean ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>What are the recommended values?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>My results appear to be abnormal - what should I do?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpreter</string>
+				<key>title</key>
+				<string>How should I interpret my results?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>automesure</string>
+				<key>title</key>
+				<string>What is self-measurement ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>autoconseil</string>
+				<key>title</key>
+				<string>Is self measurement advisable for everyone?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Blood pressure</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>What is hypertension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>What are the most frequent causes of hypertension?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>How can I lower my blood pressure?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hypertension</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>tension</string>
+				<key>title</key>
+				<string>Qu'est-ce que la tension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>sysdia</string>
+				<key>title</key>
+				<string>Que signifient tension systolique et diastolique ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpretation</string>
+				<key>title</key>
+				<string>Qu'est-ce qu'une tension normale ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>anormal</string>
+				<key>title</key>
+				<string>Les valeurs observées ne correspondent pas à la normale, que faire ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>interpreter</string>
+				<key>title</key>
+				<string>Comment interpréter mes résultats ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>automesure</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'automesure ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>autoconseil</string>
+				<key>title</key>
+				<string>L'automesure est-elle conseillée à tout le monde ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Tension</string>
+	</dict>
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>file</key>
+				<string>hypertension</string>
+				<key>title</key>
+				<string>Qu'est-ce que l'hypertension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>causes</string>
+				<key>title</key>
+				<string>Quelles sont les causes fréquentes d'hypertension ?</string>
+			</dict>
+			<dict>
+				<key>file</key>
+				<string>diminuer</string>
+				<key>title</key>
+				<string>Comment puis-je faire baisser ma tension ?</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Hypertension</string>
+	</dict>
+</array>
+</plist>

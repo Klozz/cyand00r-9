@@ -1,0 +1,293 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+@import "../src/bootstrap/less/bootstrap.less";
+@import "colors.less";
+
+
+// Grays
+// -------------------------
+
+@gray-darker:            @cshadeD4;
+@gray-dark:              @cshadeD2;
+@gray:                   @cshade;
+@gray-light:             @cshadeL2;
+@gray-lighter:           @cshadeL4;
+
+// Brand colors
+// -------------------------
+
+@brand-primary:         @app;
+@brand-success:         @bp;
+@brand-warning:         @steps;
+@brand-danger:          @warning;
+@brand-info:            @sleep;
+
+// Scaffolding
+// -------------------------
+
+@body-bg:               @hshadeL4;
+@text-color:            @gray-dark;
+
+// Links
+// -------------------------
+
+@link-color:            @brand-primary;
+@link-hover-color:      darken(@link-color, 15%);
+
+// Typography
+// -------------------------
+
+@font-family-sans-serif:  'Roboto';
+@font-family-serif:       'Roboto Slab';
+@font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          14px;
+@font-size-large:         ceil(@font-size-base * 1.25); // ~18px
+@font-size-small:         ceil(@font-size-base * 0.85); // ~12px
+
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
+
+@headings-font-family:    @font-family-base;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+
+h1{
+	font-weight: 100;
+}
+h2{
+	font-weight: 200;
+}
+h3{
+	font-weight: 300;
+}
+h4{
+	font-weight: 500;
+}
+h5{
+	font-weight: 700;
+}
+h6{
+	font-weight: 900;
+}
+
+
+
+@typicalRadius:3px;
+
+@alertRadius:@typicalRadius;
+@btnRadius:@typicalRadius;
+
+@border-radius-base:             @typicalRadius;
+@border-radius-large:            @typicalRadius + 2;
+@border-radius-small:            @typicalRadius - 1;
+
+@lightenFactor:10%;
+
+@defaultColor: @hshadeL3;
+
+@link-color:            @brand-primary;
+
+@body-bg:               @hshadeL4;
+@text-color:            @gray-darker;
+
+// Form states and alerts
+// -------------------------
+
+@state-warning-text:             @stepsL2;
+@state-warning-bg:               @stepsD3;
+@state-warning-border:           @brand-warning;
+
+@state-danger-text:              @warningL3;
+@state-danger-bg:                @warningD3;
+@state-danger-border:            @brand-danger;
+
+@state-success-text:             @bpL3;
+@state-success-bg:               @bpD3;
+@state-success-border:           @brand-success;
+
+@state-info-text:                @sleepL3;
+@state-info-bg:                  @sleepD3;
+@state-info-border:              @brand-info;
+
+//backgounds
+///////////////////////////////////////////////////
+
+.well{
+	background-color: @hshadeL4;
+}
+
+//Types
+///////////////////////////////////////////////////
+
+h1{
+	font-weight: 100;
+}
+h2{
+	font-weight: 200;
+}
+h3{
+	font-weight: 300;
+}
+h4{
+	font-weight: 500;
+}
+h5{
+	font-weight: 700;
+}
+h6{
+	font-weight: 900;
+}
+
+
+//BUTTONS
+///////////////////////////////////////////////////
+
+
+.btn {
+	height: 38px;
+}
+.btn-lg {
+	height: 46px;
+}
+.btn-sm {
+	height: 32px;
+}
+.btn-xs {
+	height: 26px;
+}
+
+.btn-primary{
+	.btn-styler(@brand-primary);
+}
+.btn-success{
+	.btn-styler(@brand-success);
+}
+.btn-info{
+	.btn-styler(@brand-info);
+}
+.btn-warning{
+	.btn-styler(@brand-warning);
+}
+.btn-danger{
+	.btn-styler(@brand-danger);
+}
+.btn-link{
+	color: @brand-primary;
+	&:hover{
+		color: lighten(@brand-primary,15%);
+	}
+}
+.btn-styler(@clr){
+	background-color:@clr;
+	&:hover {
+		background-color:lighten(@clr, @lightenFactor);
+	}
+	//border: none;
+}
+//LISTS///////////////////////////////////////////////////
+.list-lg{
+	.list-group-item{
+		padding: 14px 15px;
+		font-size: 16px;
+	}
+}
+
+//FORM
+///////////////////////////////////////////////////
+.input-group-lg{
+	border-radius: @typicalRadius;
+	.control-label{
+		color:@gray;
+	}
+	.form-control {
+		border-radius: @typicalRadius;
+		margin-bottom: 12px;
+	}
+}
+
+.input-group{
+	margin-bottom: 12px;
+	border: 4px;
+}
+
+.has-success{
+	.control-label{
+		color:@gray;
+	}
+	.form-control {
+		border-color: @brand-success;
+		&:focus{
+			border-color: @brand-success;
+		}
+	}
+}
+
+.has-warning{
+	.control-label{
+		color: @gray;
+	}
+	.form-control {
+		border-color: @brand-warning;
+		&:focus{
+			border-color: @brand-warning;
+		}
+	}
+}
+
+.has-error{
+	.control-label{
+		color:@brand-danger;
+	}
+	.form-control {
+		border-color: @brand-danger;
+		&:focus{
+			border-color: @brand-danger;
+		}
+	}
+}
+
+//ALERT BOXES
+///////////////////////////////////////////////////
+
+@alertLightenFactor:35%;
+@alertDarkenFactor:15%;
+
+.alert {
+	border-radius: @alertRadius;
+	border: none;
+}
+
+.alert-success {
+	.alert-styler(@brand-primary);
+}
+.alert-info {
+	.alert-styler(@brand-info);
+}
+.alert-warning {
+	.alert-styler(@brand-warning);
+}
+.alert-danger {
+	.alert-styler(@brand-danger);
+}
+
+.alert-styler(@clr) {
+	background-color:lighten(@clr, @alertLightenFactor);
+	color:darken(@clr, @alertDarkenFactor);
+}
+
+
+//PROGRESS
+///////////////////////////////////////////////////
+.progress{
+	background-color: @hshadeL3;
+	border-radius: @typicalRadius;
+	box-shadow: 0px 0px 0px black;
+}
+.progress-bar{
+	background-color: @app;
+	box-shadow: 0px 0px 0px black;
+}
